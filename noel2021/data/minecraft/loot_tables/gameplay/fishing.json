@@ -1,0 +1,204 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                  "x": {
+                    "min": 199981,
+                    "max": 200111
+                  },
+                  "y": {
+                    "min": 55,
+                    "max": 80
+                  },
+                  "z": {
+                    "min": -299828,
+                    "max": -299718
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [ "minecraft:fishing_rod" ],
+                "nbt": "{Tags:['ph_canne_21']}"
+              }
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [ "minecraft:fishing_rod" ],
+                    "nbt": "{Tags:['ph_canne_lvl_1']}"
+                  }
+                }
+              ],
+              "children": [
+                { "type": "minecraft:loot_table", "name": "noel2021:ph_lvl_1" }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [ "minecraft:fishing_rod" ],
+                    "nbt": "{Tags:['ph_canne_lvl_2']}"
+                  }
+                }
+              ],
+              "children": [
+                { "type": "minecraft:loot_table", "weight": 35, "name": "noel2021:ph_lvl_1" },
+                { "type": "minecraft:loot_table", "weight": 65, "name": "noel2021:ph_lvl_2" }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [ "minecraft:fishing_rod" ],
+                    "nbt": "{Tags:['ph_canne_lvl_3']}"
+                  }
+                }
+              ],
+              "children": [
+                { "type": "minecraft:loot_table", "weight": 25, "name": "noel2021:ph_lvl_1" },
+                { "type": "minecraft:loot_table", "weight": 35, "name": "noel2021:ph_lvl_2" },
+                { "type": "minecraft:loot_table", "weight": 40, "name": "noel2021:ph_lvl_3" }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [ "minecraft:fishing_rod" ],
+                    "nbt": "{Tags:['ph_canne_lvl_4']}"
+                  }
+                }
+              ],
+              "children": [
+                { "type": "minecraft:loot_table", "weight": 15, "name": "noel2021:ph_lvl_1" },
+                { "type": "minecraft:loot_table", "weight": 25, "name": "noel2021:ph_lvl_2" },
+                { "type": "minecraft:loot_table", "weight": 40, "name": "noel2021:ph_lvl_3" },
+                { "type": "minecraft:loot_table", "weight": 20, "name": "noel2021:ph_lvl_4" }
+              ]
+            },
+            {
+              "type": "minecraft:group",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [ "minecraft:fishing_rod" ],
+                    "nbt": "{Tags:['ph_canne_lvl_5']}"
+                  }
+                }
+              ],
+              "children": [
+                { "type": "minecraft:loot_table", "weight": 15, "name": "noel2021:ph_lvl_1" },
+                { "type": "minecraft:loot_table", "weight": 20, "name": "noel2021:ph_lvl_2" },
+                { "type": "minecraft:loot_table", "weight": 35, "name": "noel2021:ph_lvl_3" },
+                { "type": "minecraft:loot_table", "weight": 15, "name": "noel2021:ph_lvl_4" },
+                { "type": "minecraft:loot_table", "weight": 15, "name": "noel2021:ph_lvl_5" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "conditions": [
+            {
+              "condition": "alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "minecraft:overworld",
+                      "position": {
+                        "x": {
+                          "min": 199981,
+                          "max": 200111
+                        },
+                        "y": {
+                          "min": 55,
+                          "max": 80
+                        },
+                        "z": {
+                          "min": -299828,
+                          "max": -299718
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [ "minecraft:fishing_rod" ],
+                      "nbt": "{Tags:['ph_canne_21']}"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 10,
+              "quality": -2,
+              "name": "minecraft:gameplay/fishing/junk"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "fishing_hook": {
+                      "in_open_water": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ],
+              "weight": 5,
+              "quality": 2,
+              "name": "minecraft:gameplay/fishing/treasure"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 85,
+              "quality": -1,
+              "name": "minecraft:gameplay/fishing/fish"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

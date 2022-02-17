@@ -1,0 +1,158 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Morue des glaces", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Poisson", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2101,Tags:['ph_fish','ph_fish_1']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:pufferfish",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Fugu gelé", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Poisson", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2102,Tags:['ph_fish','ph_fish_2']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Poisson-chalet", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Poisson", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2103,Tags:['ph_fish','ph_fish_3']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:salmon",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Saumon frais", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Poisson", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2104,Tags:['ph_fish','ph_fish_4']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Glaive ancien", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Trésor", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Pépite d'or", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Trésor", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:hanging_roots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "text": "Racine gelée", "color": "#C4FDFF", "bold": true, "italic": false }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                { "text": "Pêche hivernale - Déchet", "color": "#1363BF", "italic": false },
+                [{ "text": "No", "color": "#B70D00", "bold": true, "italic": false},{"text": "ël ", "color": "#FFFFFF", "bold": true, "italic": false},{"text": "20", "color": "#B70D00", "bold": true, "italic": false},{"text": "21", "color": "#FFFFFF", "bold": true, "italic": false }]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

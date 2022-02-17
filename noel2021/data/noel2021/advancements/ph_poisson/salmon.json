@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": "Saumon frais",
+    "description": "30 points par poisson",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "salmon": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ],
+          "nbt": "{Tags:['ph_fish','ph_fish_4']}"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:['ph_barrel_salmon']}",
+          "location": {
+            "position": {
+              "x": { "min": 200055, "max": 200056 },
+              "y": { "min": 67, "max": 68 },
+              "z": { "min": -299828, "max": -299827 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2021:ph_poisson/salmon"
+  }
+}

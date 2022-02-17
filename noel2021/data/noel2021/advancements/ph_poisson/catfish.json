@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish"
+    },
+    "title": "Poisson-chalet",
+    "description": "5 points par poisson",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "catfish": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{Tags:['ph_fish','ph_fish_3']}"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:['ph_barrel_catfish']}",
+          "location": {
+            "position": {
+              "x": { "min": 200055, "max": 200056 },
+              "y": { "min": 67, "max": 68 },
+              "z": { "min": -299826, "max": -299825 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2021:ph_poisson/catfish"
+  }
+}

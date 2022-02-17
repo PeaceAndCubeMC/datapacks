@@ -1,0 +1,108 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-1538876851,450249340,-1090802258,-1020720367],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzU5Zjk3OWI5YjhlYTgzMWNhN2UyZDY2ZGYxNDgyOTNmMWE1MTQ3OTgzYjUyYzQ4ZWZlMmMzMTVlIn19fQ==\"}]}}}"
+		},
+		"title": "Quête des pingouins",
+		"description": "Trouve les 9 têtes de pingouins",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+	},
+	"criteria": {
+		"tete_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200014, "max": 200017 },
+					"y": { "min": 67, "max": 69 },
+					"z": { "min": -299886, "max": -299882 }
+				}
+      }
+    },
+    "tete_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200002, "max": 200005 },
+					"y": { "min": 63, "max": 65 },
+					"z": { "min": -299857, "max": -299854 }
+				}
+      }
+    },
+    "tete_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 199991, "max": 199994 },
+					"y": { "min": 81, "max": 83 },
+					"z": { "min": -299810, "max": -299807 }
+				}
+      }
+    },
+    "tete_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200024, "max": 200026 },
+					"y": { "min": 63, "max": 65 },
+					"z": { "min": -299797, "max": -299794 }
+				}
+      }
+    },
+    "tete_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200053, "max": 200056 },
+					"y": { "min": 70, "max": 72 },
+					"z": { "min": -299823, "max": -299820 }
+				}
+      }
+    },
+    "tete_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200047, "max": 200050 },
+					"y": { "min": 63, "max": 65 },
+					"z": { "min": -299862, "max": -299859 }
+				}
+      }
+    },
+    "tete_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200085, "max": 200088 },
+					"y": { "min": 63, "max": 65 },
+					"z": { "min": -299865, "max": -299861 }
+				}
+      }
+    },
+    "tete_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200127, "max": 200129 },
+					"y": { "min": 64, "max": 67 },
+					"z": { "min": -299757, "max": -299754 }
+				}
+      }
+    },
+    "tete_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+				"position": {
+					"x": { "min": 200066, "max": 200067 },
+					"y": { "min": 63, "max": 65 },
+					"z": { "min": -299705, "max": -299702 }
+				}
+      }
+    }
+	},
+  "rewards": {
+		"function": "noel2021:pingouins"
+	}
+}

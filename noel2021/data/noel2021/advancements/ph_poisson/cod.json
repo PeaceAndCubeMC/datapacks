@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "title": "Morue des glaces",
+    "description": "1 point par poisson",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ],
+          "nbt": "{Tags:['ph_fish','ph_fish_1']}"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:['ph_barrel_cod']}",
+          "location": {
+            "position": {
+              "x": { "min": 200055, "max": 200056 },
+              "y": { "min": 67, "max": 68 },
+              "z": { "min": -299822, "max": -299821 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2021:ph_poisson/cod"
+  }
+}
