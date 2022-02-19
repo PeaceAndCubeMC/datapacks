@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Un bruit effrayant",
+    "description": "Trouver d'où vient le bruit",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-13-nature",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-14-nature"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "La force de la Nature",
+    "description": "Quête principale disponible. Cherche où la commencer.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/root",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

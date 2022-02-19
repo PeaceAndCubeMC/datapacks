@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "Du bon Rhum !",
+    "description": "Quête démarée",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "ete_pirates:quetes/quete01/01-000-du_bon_rhum",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete01/01-00-du_bon_rhum"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Le bout de la grotte ?",
+    "description": "Passer la dernière porte dans la grotte",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-15-nature",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-16-nature"
+  }
+}

@@ -1,0 +1,1 @@
+execute if entity @s[scores={ete_quete_01=8}] run advancement grant @s only ete_pirates:quetes/quete01/01-09-du_bon_rhum

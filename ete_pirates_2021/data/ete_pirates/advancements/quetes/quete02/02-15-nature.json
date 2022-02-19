@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "La Calamité",
+    "description": "Tuer la Calamité de la grotte",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-14-nature",
+  "criteria": {
+    "quete": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-14-nature": true
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:zoglin",
+          "nbt": "{Tags:[\"2021_calamite\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-15-nature"
+  }
+}

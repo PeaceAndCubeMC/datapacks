@@ -1,0 +1,256 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Toujours plus de créatures",
+    "description": "Tuer 10 Vaseux",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-08-nature",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": true
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": {
+                    "9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:slime",
+          "nbt": "{Tags:[\"S2021_mob_door_3\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-09-nature"
+  }
+}

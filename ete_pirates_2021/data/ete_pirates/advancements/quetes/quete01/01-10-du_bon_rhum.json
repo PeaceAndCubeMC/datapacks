@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "Le passage",
+    "description": "Retourner voir le passage qui était bloqué",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete01/01-09-du_bon_rhum",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete01/01-10-du_bon_rhum"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "3 bières",
+    "description": "Aller chercher des bières au bar",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete01/01-00-du_bon_rhum",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete01/01-01-du_bon_rhum"
+  }
+}

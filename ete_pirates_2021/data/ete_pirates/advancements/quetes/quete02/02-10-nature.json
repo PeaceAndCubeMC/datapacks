@@ -1,0 +1,256 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Beaucoup trop de créatures",
+    "description": "Tuer 10 Rat'Dégout",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-09-nature",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-09-nature": true
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-10-nature": {
+                    "9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:endermite",
+          "nbt": "{Tags:[\"S2021_mob_door_4\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-10-nature"
+  }
+}

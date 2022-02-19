@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "Faire du Rhum",
+    "description": {
+      "text": "Les étapes de fabrication du rhum sont expliquée dans la brasserie"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete01/01-03-du_bon_rhum",
+  "criteria": {
+    "prendre_canne": {
+      "trigger": "minecraft:impossible"
+    },
+    "canne_four": {
+      "trigger": "minecraft:impossible"
+    },
+    "rhum_coule": {
+      "trigger": "minecraft:impossible"
+    },
+    "rhum_bouteille": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete01/01-04-du_bon_rhum"
+  }
+}

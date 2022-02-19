@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": "L'histoire",
+    "description": "Retourner voir Deux Paires d'Yeux",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete01/01-06-du_bon_rhum",
+  "criteria": {
+    "quete-01": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete01/01-07-du_bon_rhum"
+  }
+}

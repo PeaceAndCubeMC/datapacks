@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Une recette douteuse",
+    "description": "Trouver la bonne combinaison",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-04-nature",
+  "criteria": {
+    "bouton1": {
+      "trigger": "minecraft:impossible"
+    },
+    "bouton2": {
+      "trigger": "minecraft:impossible"
+    },
+    "bouton3": {
+      "trigger": "minecraft:impossible"
+    },
+    "bouton4": {
+      "trigger": "minecraft:impossible"
+    },
+    "bouton5": {
+      "trigger": "minecraft:impossible"
+    },
+    "bouton6": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-05-nature"
+  }
+}

@@ -1,0 +1,10 @@
+tellraw @p ["",{"text":"[Le vieux Deux Paires d\u2019Yeux]:","color":"#0da84a"},{"text":" Aaahh ! J\u2019commençais à devenir sobre à ce rythme là ! *glou glou glou* Pwaa ! Ça va mieux d\u2019un coup ! *Hic*","color":"#8EE9BF"},{"text":"\n"}]
+tellraw @p ["",{"text":"[","color":"#D247D2"},{"selector":"@p","color":"#D247D2"},{"text":"]:","color":"#D247D2"},{"text":" Que pouvez vous me dire sur la fontaine ? maintenant que vous avez votre rhum.","color":"#8EE9BF"},{"text":"\n"}]
+tellraw @p ["",{"text":"[Le vieux Deux Paires d\u2019Yeux]:","color":"#0da84a"},{"text":" Oh ! *Hic* Heureusement que t\u2019es là pour me le rappeler, j\u2019avais oublié. *Hic* Assieds toi là, je vais te raconter\u2026C\u2019était dans ma jeunesse, j\u2019étais grand, beau, séduisant et.. Je m\u2019égare. Je faisais partie d\u2019un équipage, et tout comme toi, on avait entendu parlé de cette fontaine aux pouvoirs mystérieux. On s\u2019est mis à sa recherche, on a sillonné les mers pendant des années, pour enfin arriver.. ici, dans notre beau village pirate. Notre long voyage nous a ramené en haut de la colline, près de la vieille chapelle. On a cherché pendant des jours, sans rien y trouver. Notre capitaine a abandonné après avoir compris que c\u2019était une histoire montée de toute pièce. Quel échec, des années gâchées pour au final tomber dans un canular ! Voilà, c\u2019est tout ce qui a à savoir sur cette légende Hahaha ! *Hic* Déçu, pas vrai ? \u2026 *ZzzzZzzzZzzz*","color":"#8EE9BF"},{"text":"\n"}]
+tellraw @p ["",{"text":"[","color":"#D247D2"},{"selector":"@p","color":"#D247D2"},{"text":"]:","color":"#D247D2"},{"text":" *il s\u2019est endormi* *Je ferais bien d\u2019aller jeter un oeil à cette chapelle, on ne sait jamais.*","color":"#8EE9BF"},{"text":"\n"}]
+
+tellraw @p ["",{"text":"{Objectif : Se rendre à la chapelle en haut de la colline.}","color":"#ECC717"},{"text":"\n "}]
+
+scoreboard players set @p ete_quete_01 7
+
+execute as @p run playsound minecraft:block.note_block.xylophone master @p ~ ~ ~ 1 0.6

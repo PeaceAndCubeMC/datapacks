@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "?????",
+    "description": "Tuer la créature qui retient la Dryade",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-16-nature",
+  "criteria": {
+    "quete": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-16-nature": true
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:zombie_villager",
+          "nbt": "{Tags:[\"2021_nature_boss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-17-nature"
+  }
+}

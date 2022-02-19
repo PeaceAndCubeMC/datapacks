@@ -1,0 +1,376 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_tulip"
+    },
+    "title": "Plus de créatures",
+    "description": "Tuer 15 Acariens infectés",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ete_pirates:quetes/quete02/02-07-nature",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-07-nature": true
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "10": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "11": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "12": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "13": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    },
+    "15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "ete_pirates:quetes/quete02/02-08-nature": {
+                    "14": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:cave_spider",
+          "nbt": "{Tags:[\"S2021_mob_door_2\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ete_pirates:quetes/quete02/02-08-nature"
+  }
+}

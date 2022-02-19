@@ -1,0 +1,3 @@
+execute if entity @s[scores={ete_quete_01=12}] run tellraw @p ["",{"text":"[","color":"#D247D2"},{"selector":"@p","color":"#D247D2"},{"text":"]:","color":"#D247D2"},{"text":" *C'est la source de la légende. Je dois garder son emplacement secret.*","color":"#8EE9BF"},{"text":"\n"}]
+
+execute if entity @s[scores={ete_quete_01=11}] run advancement grant @s only ete_pirates:quetes/quete01/01-12-du_bon_rhum
