@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cocoa_beans",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_name",
+                      "name": {
+                        "text": "Pépites de chocolat",
+                        "color": "#945932",
+                        "bold": false,
+                        "italic": false
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_lore",
+                      "lore": [
+                        {
+                          "text": "Ingrédient et Friandise",
+                          "color": "gray",
+                          "bold": false,
+                          "italic": false
+                        },
+                        {
+                          "text": "Halloween 2020",
+                          "color": "red",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ]
+                    },
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{HideFlags:1,tag:halloween,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:empty"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:halloween2020"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:flower_pot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sugar",
+              "functions": [
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "text": "Sucre fin",
+                    "color": "#FFBDF4",
+                    "bold": false,
+                    "italic": false
+                  }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "text": "Ingrédient et Friandise",
+                      "color": "gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "Halloween 2020",
+                      "color": "red",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{HideFlags:1,tag:halloween,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:halloween2020"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sugar_cane"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
