@@ -1,0 +1,3 @@
+execute positioned ~ ~ ~ if score @s oeufs >= #palierp2 oeufs run tellraw @s ["",{"text":"[Parkour]","bold":true,"color":"yellow"},{"text":" Tu entres dans le moulin. Atteint le sommet pour avoir des récompenses !","color":"green"}]
+execute positioned ~ ~ ~ if score @s oeufs >= #palierp2 oeufs run execute in minecraft:event run tp @s -737.5 72 -133.5 -180 0
+execute positioned ~ ~ ~ if score @s oeufs < #palierp2 oeufs run tellraw @s ["",{"text":"[Parkour]","bold":true,"color":"yellow"},{"text":" Atteint le ","color":"green"},{"text":"niveau 2","bold":true,"color":"dark_green"},{"text":" de chocolatier pour avoir accès au Parkour.","color":"green"}]

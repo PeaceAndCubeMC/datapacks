@@ -1,0 +1,3 @@
+execute positioned ~ ~ ~ if score @s oeufs >= #palierp8 oeufs run tellraw @s ["",{"text":"[Grotte] ","bold":true,"color":"gray"},{"text":"L'oracle m'a parlé de cette grotte... Je vais essayer de retrouver ce mineur perdu."}]
+execute positioned ~ ~ ~ if score @s oeufs >= #palierp8 oeufs run execute in minecraft:event run tp @s -886.5 122 -192.5 0 0
+execute positioned ~ ~ ~ if score @s oeufs < #palierp8 oeufs run tellraw @s ["",{"text":"[Grotte]","bold":true,"color":"gray"},{"text":" Atteint le ","color":"green"},{"text":"niveau 8","bold":true,"color":"dark_green"},{"text":" de chocolatier pour avoir accès à la Grotte.","color":"green"}]

@@ -1,0 +1,11 @@
+execute if entity @s[tag=paques_jump,scores={paques_cloche=..999}] run tellraw @s ["",{"text":"[Boutique de Pâques]","bold":true,"color":"yellow"},{"text":" Tu n'as pas assez de cloche pour acheter cet article.","color":"green"}]
+
+
+execute unless entity @s[tag=paques_jump] run tellraw @s ["",{"text":"[Boutique de Pâques]","bold":true,"color":"yellow"},{"text":" Tu dois finir l'activité","color":"green"},{"text":" Parkour","bold":true,"color":"dark_green"},{"text":" pour pouvoir acheter cet article.","color":"green"}]
+
+
+execute if entity @s[tag=paques_jump,scores={paques_cloche=1000..}] run tellraw @s ["",{"text":"[Boutique de Pâques]","bold":true,"color":"yellow"},{"text":" Achat effectué. Profite bien de ton nouvel article !","color":"green"}]
+
+execute if entity @s[tag=paques_jump,scores={paques_cloche=1000..}] run give @s iron_boots{CanPlaceOn:["minecraft:cake"],display:{Name:'{"text":"Bottes à ressort","color":"#AD4747","bold":true,"italic":false}',Lore:['{"text":" "}','[{"text":"Pâques","color":"#3DA339","bold":true,"italic":false},{"text":" ●","color":"white","bold":false,"italic":false},{"text":" 2022","color":"#754939","bold":true,"italic":false}]']},Enchantments:[{id:"minecraft:protection",lvl:5s},{id:"minecraft:feather_falling",lvl:5s},{id:"minecraft:blast_protection",lvl:3s},{id:"minecraft:unbreaking",lvl:5s},{id:"minecraft:mending",lvl:1s},{id:"minecraft:quick_charge",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.2,Operation:0,UUID:[I;-1658451710,-129677852,-1758866484,1121084545],Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1724195086,-884585679,-1632524238,129669803],Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:1,Operation:0,UUID:[I;1023644959,-47235065,-1726604228,325615052],Slot:"feet"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.01,Operation:0,UUID:[I;-378972314,1293111107,-1104882788,-2019606714],Slot:"feet"}]} 1
+
+execute if entity @s[tag=paques_jump,scores={paques_cloche=1000..}] run scoreboard players remove @s paques_cloche 1000

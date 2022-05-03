@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_dye"
+    },
+    "title": "Tuer une taupe",
+    "description": "Tuer une taupe (pâques 2022)",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "quete": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [],
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"taupe\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2022:activites/taper_taupe"
+  }
+}

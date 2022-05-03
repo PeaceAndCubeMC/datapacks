@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": "Tuer Zomboeuf",
+    "description": "Tuer un Zomboeuf (pâques 2022)",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "quete": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [],
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"zomboeuf2022\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2022:taper_zomboeuf"
+  }
+}
