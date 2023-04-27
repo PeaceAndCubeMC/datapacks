@@ -1,5 +1,7 @@
 # PeaceAndCube datapacks
-Contains datapacks made for seasonal events
+Contains datapacks made for seasonal events.
+
+This repository is used as an archive. Datapacks may not be compatible with the latest version of Minecraft.
 
 ## halloween2019
 `Advancements` • `Functions`
