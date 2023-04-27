@@ -1,0 +1,5 @@
+scoreboard objectives remove noel2022_jour5
+scoreboard objectives remove noel2022_jour10
+scoreboard objectives remove noel2022_jour15
+scoreboard objectives remove noel2022_jour20
+scoreboard objectives remove noel2022_jour25

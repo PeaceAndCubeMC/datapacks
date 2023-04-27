@@ -1,0 +1,4 @@
+execute unless score @s noel2022_jour5 matches 0.. unless entity @s[nbt={SelectedItem:{id:"minecraft:paper",Count:1b,tag:{Tags:["Noel2022_quete5"]}}}] run tellraw @s ["",{"text":"[","color":"dark_red"},{"text":"Noël ","color":"white"},{"text":"2022","color":"red"},{"text":"] ","color":"dark_red"},{"text":"Jean-Chris Masse : ","color":"yellow"},{"text":"Salut l'ami, je me présente je suis ","color":"white"},{"text":"Jean-Chris Masse","bold":true,"color":"white"},{"text":". J'ai envoyé des Tickets de Noël à certaines personnes pour qu'elles m'aident à réaliser certaines taches. Si tu en possède un, montre le moi en le prennant dans ta main principale !' ","color":"white"}]
+
+execute if score @s noel2022_jour5 matches 0.. run function peaceandcube:events/avent2022/quete_jour5
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:paper",Count:1b,tag:{Tags:["Noel2022_quete5"]}}}] run function peaceandcube:events/avent2022/quete_jour5

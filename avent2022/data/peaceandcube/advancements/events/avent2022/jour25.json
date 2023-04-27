@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "cadeau": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "peaceandcube:events/avent2022/jour25"
+  }
+}

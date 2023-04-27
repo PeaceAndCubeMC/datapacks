@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "casser": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "noel2022_jour10_casser": { "min": 64 }
+            }
+          }
+        ]
+      }
+    },
+    "crafter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "noel2022_jour10_craft": { "min": 64 }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "peaceandcube:events/avent2022/jour10/jour10"
+  }
+}

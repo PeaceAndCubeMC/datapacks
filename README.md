@@ -12,3 +12,6 @@ Manages quests of the event.
 
 ## noel2021
 Modifies fishing loot table to be able to fish custom items, and manages scores depending on the fish obtained.
+
+## avent2022
+Quests for days 5, 10 and 25 of the advent calendar
