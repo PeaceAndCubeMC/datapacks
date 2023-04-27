@@ -1,0 +1,207 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:skeleton_skull"
+		},
+		"title": "Quête des Crânes",
+		"description": "Trouve les 12 crânes"
+	},
+	"parent": "peaceandcube:events/halloween_2019",
+	"rewards": {
+		"function": "peaceandcube:hallo"
+	},
+	"criteria": {
+		"crane_1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2048,
+						"max": -2045
+					},
+					"y": 106,
+					"z": {
+						"min": 13008,
+						"max": 13010
+					}
+				}
+            }
+        },
+		"crane_2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2040,
+						"max": -2038
+					},
+					"y": 115,
+					"z": {
+						"min": 13005,
+						"max": 13006
+					}
+				}
+            }
+        },
+		"crane_3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2019,
+						"max": -2017
+					},
+					"y": 116,
+					"z": {
+						"min": 12986,
+						"max": 12989
+					}
+				}
+            }
+        },
+		"crane_4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2007,
+						"max": -2005
+					},
+					"y": 111,
+					"z": {
+						"min": 12937,
+						"max": 12939
+					}
+				}
+            }
+        },
+		"crane_5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1947,
+						"max": -1944
+					},
+					"y": 114,
+					"z": {
+						"min": 12906,
+						"max": 12908
+					}
+				}
+            }
+        },
+		"crane_6": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1962,
+						"max": -1958
+					},
+					"y": 111,
+					"z": {
+						"min": 12949,
+						"max": 12952
+					}
+				}
+            }
+        },
+		"crane_7": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1940,
+						"max": -1938
+					},
+					"y": 112,
+					"z": {
+						"min": 13007,
+						"max": 13011
+					}
+				}
+            }
+        },
+		"crane_8": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1899,
+						"max": -1895
+					},
+					"y": 120.5,
+					"z": {
+						"min": 13008,
+						"max": 13010
+					}
+				}
+            }
+        },
+		"crane_9": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1979,
+						"max": -1976
+					},
+					"y": 111,
+					"z": {
+						"min": 13049,
+						"max": 13052
+					}
+				}
+            }
+        },
+		"crane_10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2014,
+						"max": -2012
+					},
+					"y": 115,
+					"z": {
+						"min": 13011,
+						"max": 13014
+					}
+				}
+            }
+        },
+		"crane_11": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -1897,
+						"max": -1893
+					},
+					"y": 115,
+					"z": {
+						"min": 13002,
+						"max": 13005
+					}
+				}
+            }
+        },
+		"crane_12": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"x": {
+						"min": -2015,
+						"max": -2011
+					},
+					"y": 112,
+					"z": {
+						"min": 13025,
+						"max": 13029
+					}
+				}
+            }
+        }
+	}
+}

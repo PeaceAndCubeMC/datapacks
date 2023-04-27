@@ -1,5 +1,8 @@
 # PeaceAndCube datapacks
-Contains datapacks made for specific events
+Contains datapacks made for seasonal events
+
+## halloween2019
+Advancements and related functions
 
 ## halloween2020
 Modifies some block loot tables to drop custom items in the halloween2020 world.

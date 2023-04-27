@@ -1,0 +1,59 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tripwire_hook"
+		},
+		"title": "Clé des Boss",
+		"description": "Obtiens les 4 fragments de clé"
+	},
+	"parent": "peaceandcube:events/halloween_2019",
+	"rewards": {
+		"function": "peaceandcube:cle"
+	},
+	"criteria": {
+		"fragment1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_nugget",
+						"nbt": "{Tags:[\"fragment1\"]}"
+					}
+				]
+			}
+		},
+		"fragment2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_nugget",
+						"nbt": "{Tags:[\"fragment2\"]}"
+					}
+				]
+			}
+		},
+		"fragment3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_nugget",
+						"nbt": "{Tags:[\"fragment3\"]}"
+					}
+				]
+			}
+		},
+		"fragment4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_nugget",
+						"nbt": "{Tags:[\"fragment4\"]}"
+					}
+				]
+			}
+		}
+	}
+}

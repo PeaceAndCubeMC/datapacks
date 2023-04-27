@@ -1,0 +1,1 @@
+give @p minecraft:iron_nugget{display:{Name:'{"text":"Fragment de clé"}',Lore:['{"text":"N°3","color":"yellow"}','{"text":"Halloween 2019"}']},Tags:["fragment3"]}
