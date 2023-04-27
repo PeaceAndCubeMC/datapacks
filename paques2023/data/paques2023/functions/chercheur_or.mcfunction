@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Tu as récupéré tous les ","color":"#FFFCB9"},{"text":"morceaux de cloche","bold":true,"color":"#FFFCB9"},{"text":" ! Retourne voir le prêtre.","color":"#FFFCB9"}]

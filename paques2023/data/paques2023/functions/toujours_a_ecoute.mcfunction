@@ -1,0 +1,2 @@
+tag @s remove paques2023_q2
+tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Tu as obtenu suffisamment d'informations ! Trouve le voleur sur l'île.","color":"#FFFCB9"}]

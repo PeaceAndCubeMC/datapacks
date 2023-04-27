@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "Entraînement cérébral",
+    "description": "Résous l'énigme du vieil homme mystérieux",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:tireur_elite",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:entrainement_cerebral"
+  }
+}

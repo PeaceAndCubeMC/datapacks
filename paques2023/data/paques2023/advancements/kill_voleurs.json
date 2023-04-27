@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "v1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"paques2023_voleur_1\"]}"
+        }
+      }
+    },
+    "v2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"paques2023_voleur_2\"]}"
+        }
+      }
+    },
+    "v3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"paques2023_voleur_3\"]}"
+        }
+      }
+    },
+    "v4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"paques2023_voleur_4\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2023:kill_voleurs"
+  }
+}

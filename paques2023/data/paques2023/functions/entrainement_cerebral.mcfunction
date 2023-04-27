@@ -1,0 +1,3 @@
+clear @s minecraft:paper{Tags:["paques2023_enigme"]}
+tag @s remove paques2023_q3_enigme
+give @s feather{display:{Name:'{"text":"Plume éthérée","color":"white","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Tenue en main, elle permet de","color":"gray","italic":false}','{"text":"se sentir léger...","color":"gray","italic":false}','{"text":" "}','{"text":"Pâques 2023","color":"#54A448","bold":true,"italic":false}']},Tags:["paques2023_plume"],Enchantments:[{id:"minecraft:feather_falling",lvl:2s},{id:"minecraft:knockback",lvl:1s}]}

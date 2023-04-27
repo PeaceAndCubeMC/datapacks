@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "quete": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [ "minecraft:goat_horn" ],
+          "nbt": "{Tags:[\"paques2023_corne\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2023:trigger_corne_chevrine"
+  }
+}

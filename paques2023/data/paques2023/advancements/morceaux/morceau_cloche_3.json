@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:[\"paques2023_mc3\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2023:morceaux/morceau_cloche_3"
+  }
+}

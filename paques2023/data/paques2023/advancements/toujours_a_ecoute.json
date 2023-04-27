@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": "Toujours à l'écoute",
+    "description": "Demande des informations sur le voleur aux habitants du village",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:portrait_robot",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:toujours_a_ecoute"
+  }
+}

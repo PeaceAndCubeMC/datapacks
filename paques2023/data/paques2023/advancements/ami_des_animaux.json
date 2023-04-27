@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": "Ami des animaux",
+    "description": "Décoince la chèvre du fermier",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:root",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:goat",
+          "nbt": "{Tags:[\"paques2023\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2023:ami_des_animaux"
+  }
+}

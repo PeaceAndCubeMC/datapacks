@@ -1,0 +1,5 @@
+execute if entity @e[type=minecraft:chicken,nbt=!{HurtTime:0s},nbt=!{Glowing:1b},x=200157,y=44,z=-299268,distance=..15,limit=1] unless block 200177 54 -299255 minecraft:redstone_wire run setblock 200177 54 -299255 minecraft:redstone_wire
+execute if entity @e[type=minecraft:chicken,nbt=!{HurtTime:0s},nbt=!{Glowing:1b},x=200157,y=44,z=-299268,distance=..15,limit=1] run scoreboard players add @s paques2023_poule 1
+execute if entity @e[type=minecraft:chicken,nbt=!{HurtTime:0s},nbt=!{Glowing:1b},x=200157,y=44,z=-299268,distance=..15,limit=1] run playsound minecraft:entity.experience_orb.pickup master @s
+execute as @e[type=minecraft:chicken,nbt=!{HurtTime:0s},nbt=!{Glowing:1b},x=200157,y=44,z=-299268,distance=..15,limit=1] run data modify entity @s Glowing set value 1
+advancement revoke @s only paques2023:hit_poule

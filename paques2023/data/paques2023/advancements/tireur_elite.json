@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": "Tireur d'élite",
+    "description": "Aide Enrico Quille à compter ses poules",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:copains_avant",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:tireur_elite"
+  }
+}

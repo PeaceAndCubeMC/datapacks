@@ -1,0 +1,7 @@
+stopsound @s record minecraft:item.goat_horn.sound.1
+execute unless entity @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20] unless predicate paques2023:has_luck_effect run playsound minecraft:item.goat_horn.sound.1 master @s ~ ~ ~ 20 2
+execute if entity @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20] unless predicate paques2023:has_luck_effect at @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20,sort=nearest,limit=1] run playsound minecraft:block.bell.resonate master @s ~ ~ ~ 20 1
+execute if entity @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20] unless predicate paques2023:has_luck_effect at @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20,sort=nearest,limit=1] run playsound minecraft:block.amethyst_cluster.break master @s ~ ~ ~ 10 0.5
+execute if entity @e[type=minecraft:item_frame,nbt={Tags:["paques2023_mc"]},distance=..20] unless predicate paques2023:has_luck_effect run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Hum... On dirait qu'il y a un ","color":"#FFFCB9"},{"text":"morceau de cloche","bold":true,"color":"#FFFCB9"},{"text":" à proximité...","color":"#FFFCB9"}]
+execute unless predicate paques2023:has_luck_effect run effect give @s minecraft:luck 7 0 true
+advancement revoke @s only paques2023:trigger_corne_chevrine

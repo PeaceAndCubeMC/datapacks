@@ -32,3 +32,8 @@ Manages egg gathering scores, quests and shops of the event. Contains structures
 `Advancements` • `Functions`
 
 Quests for days 5, 10 and 25 of the advent calendar.
+
+## paques2023
+`Advancements` • `Functions` • `Loot tables` • `Item modifiers` • `Predicates`
+
+Manages quests, scores, dialogues and custom crop loots.

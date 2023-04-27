@@ -1,0 +1,41 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [ "minecraft:paper" ],
+            "nbt": "{Tags:[\"paques2023_enigme\"],display:{Name:'{\"text\":\"plume\"}'}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [ "minecraft:paper" ],
+            "nbt": "{Tags:[\"paques2023_enigme\"],display:{Name:'{\"text\":\"Plume\"}'}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [ "minecraft:paper" ],
+            "nbt": "{Tags:[\"paques2023_enigme\"],display:{Name:'{\"text\":\"PLUME\"}'}}"
+          }
+        }
+      }
+    }
+  ]
+}

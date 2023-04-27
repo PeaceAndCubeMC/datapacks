@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": "En état d'arrestation",
+    "description": "Retourne voir le gardien pour résoudre l'affaire",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:vol_a_etalage",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:en_etat_arrestation"
+  }
+}

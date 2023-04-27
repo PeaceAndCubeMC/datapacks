@@ -1,0 +1,3 @@
+execute positioned 200157 44 -299268 run summon chicken ~ ~ ~ {PersistenceRequired:1b,Health:9999f,DeathLootTable:"minecraft:empty",Tags:["paques2023_poule"],ActiveEffects:[{Id:10,Amplifier:99b,Duration:19999980,ShowParticles:0b},{Id:11,Amplifier:99b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:9999}]}
+scoreboard players add paques2023_current paques2023_spawnpoules 1
+execute if score paques2023_current paques2023_spawnpoules < paques2023_default paques2023_spawnpoules run function paques2023:spawn_poules

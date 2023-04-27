@@ -1,0 +1,4 @@
+execute if entity @s[advancements={paques2023:root=true}] run give @s gold_nugget{display:{Name:'{"text":"Morceau de cloche","color":"#FFD700","bold":true,"italic":false}',Lore:['{"text":""}','{"text":"➡ Morceau 6/9","color":"gray","italic":false}','{"text":"Pâques 2023","color":"#54A448","bold":true,"italic":false}']},Enchantments:[{id:"minecraft:unbreaking",lvl:3s}],Tags:["paques2023_mc6"]}
+execute if entity @s[advancements={paques2023:root=true}] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Tu as trouvé un ","color":"#FFFCB9"},{"text":"morceau de cloche","bold":true,"color":"#FFFCB9"},{"text":" !","color":"#FFFCB9"}]
+execute if entity @s[advancements={paques2023:root=true}] run advancement grant @s only paques2023:chercheur_or mc6
+execute if entity @s[advancements={paques2023:root=false}] run advancement revoke @s only paques2023:morceaux/morceau_cloche_6

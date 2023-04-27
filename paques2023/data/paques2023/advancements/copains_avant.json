@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": "Copains d'avant",
+    "description": "Parle au vieil homme mystérieux",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:root",
+  "criteria": {
+    "paques2023": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:copains_avant"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:chicken",
+          "nbt": "{Tags:[\"paques2023_poule\"]}"
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "paques2023:hit_poule"
+  }
+}

@@ -1,0 +1,6 @@
+execute if entity @s[advancements={paques2023:ami_des_animaux=false}] unless entity @s[tag=paques2023_q2] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"José Beauvain","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Ma chévle est couincé ! Aide moué à la r'tirer d'lo ma parole ! Tape lui d'sus !","color":"#FFFCB9"}]
+
+execute if entity @s[advancements={paques2023:ami_des_animaux=true}] unless entity @s[tag=paques2023_q2] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"José Beauvain","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Oh nan elle s'est r'couincée... T'inquiète po mon p'tiot j'vais m'débrouiller autr'ment !","color":"#FFFCB9"}]
+
+execute if entity @s[tag=paques2023_q2] run tellraw @s ["",{"text":"[","color":"gray"},{"selector":"@s","color":"#54A448"},{"text":"]","color":"gray"},{"text":" As-tu déjà vu cet homme ?","color":"#FFFCB9"}]
+execute if entity @s[tag=paques2023_q2] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"José Beauvain","color":"#54A448"},{"text":"]","color":"gray"},{"text":" J'connais po l'bonhomme, mais j'ai ben entendu du bluit p'dant la nuit","color":"#FFFCB9"}]

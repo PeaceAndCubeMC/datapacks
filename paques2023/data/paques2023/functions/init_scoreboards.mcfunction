@@ -1,0 +1,8 @@
+scoreboard objectives add paques2023_accespoules dummy
+scoreboard objectives add paques2023_poule dummy
+scoreboard objectives add paques2023_recordpoules dummy
+scoreboard objectives add paques2023_spawnpoules dummy
+scoreboard players set paques2023_default paques2023_spawnpoules 60
+scoreboard players set paques2023_current paques2023_spawnpoules 0
+scoreboard objectives add paques2023_timer dummy
+scoreboard players set paques2023_default paques2023_timer 60

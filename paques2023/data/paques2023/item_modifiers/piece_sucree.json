@@ -1,0 +1,26 @@
+[
+  {
+    "function": "set_name",
+    "entity": "this",
+    "name": {
+      "text": "Pièce sucrée",
+      "color": "yellow",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "set_lore",
+    "entity": "this",
+    "lore": [
+      { "text": "Utilisable dans les boutiques", "color": "gray", "italic": false },
+      { "text": "du village de Pâques", "color": "gray", "italic": false },
+      { "text": "" },
+      { "text": "Pâques 2023", "color": "#54A448", "bold": true, "italic": false }
+    ]
+  },
+  {
+    "function": "set_nbt",
+    "tag": "{Tags:[\"paques2023_piece\"]}"
+  }
+]

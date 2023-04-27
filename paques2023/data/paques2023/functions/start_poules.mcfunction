@@ -1,0 +1,16 @@
+execute unless score @s paques2023_accespoules matches 0.. run scoreboard players set @s paques2023_accespoules 0
+
+execute if score @s paques2023_accespoules matches 5.. run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Tu as déjà compté les poules 5 fois aujourd'hui ! Reviens demain.","color":"#FFFCB9"}]
+
+execute if entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Il y a déjà un joueur en train de compter les poules !","color":"#FFFCB9"}]
+
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run tellraw @s ["",{"text":"[","color":"gray"},{"text":"Pâques 2023","color":"#54A448"},{"text":"]","color":"gray"},{"text":" Munis-toi d'un arc ou d'une arbalète.\nTu as 60 secondes pour tirer sur le maximum de poules, qui passeront en surbrillance si elles sont touchées.\nLe décompte commencera lorsque tu toucheras une poule !","color":"#FFFCB9"}]
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run kill @e[type=minecraft:chicken,tag=paques2023_poule,x=200160,y=43,z=-299267,distance=..30]
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run scoreboard players set paques2023_current paques2023_spawnpoules 0
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run scoreboard players operation @s paques2023_timer = paques2023_default paques2023_timer
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run scoreboard players reset @s paques2023_poule
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 unless score @s paques2023_recordpoules matches 0.. run scoreboard players set @s paques2023_recordpoules 0
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run tag @s add paques2023_q3_poule
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run function paques2023:spawn_poules
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run tp @s 200171 43 -299254 135 0
+execute unless entity @e[type=minecraft:player,gamemode=survival,x=200159,y=43,z=-299265,distance=..15] if score @s paques2023_accespoules matches 0..4 run scoreboard players add @s paques2023_accespoules 1

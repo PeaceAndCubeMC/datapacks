@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": "Chercheur d'or",
+    "description": "Récupère les 9 morceaux de cloche pour le prêtre",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "paques2023:ami_des_animaux",
+  "criteria": {
+    "mc1": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc2": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc3": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc4": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc5": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc6": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc7": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc8": {
+      "trigger": "minecraft:impossible"
+    },
+    "mc9": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "paques2023:chercheur_or"
+  }
+}
