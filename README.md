@@ -28,6 +28,11 @@ Modifies fishing loot table to be able to fish custom items, and manages scores 
 
 Manages egg gathering scores, quests and shops of the event. Contains structures used as part of the progression.
 
+## halloween2022
+`Advancements` • `Functions` • `Loot tables` • `Item modifiers` • `Predicates` • `Structures`
+
+Manages all quests, dialogues and resource gathering. Modifies some block loot tables. Gatherable resources are generated with structures.
+
 ## avent2022
 `Advancements` • `Functions`
 

@@ -1,0 +1,4 @@
+scoreboard players add @s hallo_sculpte_citrouilles 1
+execute if score @s hallo_sculpte_citrouilles matches 10.. run tellraw @s [{"selector":"@s","color":"aqua","bold":true},{"text":": ","color":"aqua"},{"text":"*C'est bon, j'ai sculpté 10 citrouilles. Retournons voir le scupteur de citrouille.*","color":"#699FA2","bold":false}]
+execute if score @s hallo_sculpte_citrouilles matches 10.. run playsound minecraft:block.note_block.bell ambient @s ~ ~ ~ 10 0.5
+execute unless score @s hallo_sculpte_citrouilles matches 10.. run advancement revoke @s only peaceandcube:events/halloween2022/sculpte_citrouille

@@ -1,0 +1,2 @@
+execute unless entity @s[scores={hallo_pioche_craft=-1..}] run tellraw @s [{"text":"Fermière","bold":true,"color":"#D8E068"},{"text":":","color":"gray"},{"text":" Du blé, du blé, plein de blé !","color":"#699FA2","bold":false}]
+execute if entity @s[scores={hallo_pioche_craft=1}] run tellraw @s [{"text":"Fermière","bold":true,"color":"#D8E068"},{"text":":","color":"gray"},{"text":" Tu veux des fibres végétales ? Y'a du blé dans la grange là bas, si ça te convient sers toi !","color":"#699FA2","bold":false}]

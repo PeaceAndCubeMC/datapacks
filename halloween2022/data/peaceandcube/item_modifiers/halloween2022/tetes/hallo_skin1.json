@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Masque d'Osam'Odahs",
+      "color": "#80AB8E",
+      "bold": true,
+      "italic": false
+    }
+  },
+{
+  "function": "set_nbt",
+  "tag": "{SkullOwner:{Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2NzM0MTg1NzE3NCwKICAicHJvZmlsZUlkIiA6ICI5MTVlNTEzMzI2NWI0YTk2YWFkYWFhYzgyZDZlNmY0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXp1bGllbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NmRkY2I2YmJlOGViY2VkYzJhOTg0ZDFiZjU3NTI4ZTk4N2FlNzE0MTAzOTRmM2YxMWU4MDQzNTIxOWYxNjUwIgogICAgfQogIH0KfQ==\"}]}}}"
+}
+]

@@ -1,0 +1,8 @@
+execute if score @s hallo_quete_intro matches 1 run tellraw @s [{"text":"Sculpteur de citrouille","bold":true,"color":"dark_green"},{"text":":","color":"#D45628","bold":false},{"text":" Tu viens m'aider à sculpter des citrouilles ? Tiens, voilà une cisaille si t'en as pas déjà sur toi. Tu peux t'occuper des citrouilles dehors sur la table !","color":"#699FA2","bold":false}]
+execute if score @s hallo_quete_intro matches 1 unless entity @s[nbt={Inventory:[{id:"minecraft:shears"}]}] run give @s shears{Damage:200} 1
+execute if score @s hallo_quete_intro matches 1 run scoreboard players set @s hallo_quete_intro 2
+execute if score @s hallo_quete_intro matches 2 unless score @s hallo_sculpte_citrouilles matches 10.. run tellraw @s [{"text":"Objectif","bold":true,"color":"gold"},{"text":":","color":"gold","bold":false},{"text":" Sculpter 10 citrouilles.","color":"yellow","bold":false}]
+
+execute if score @s hallo_quete_intro matches 2 if score @s hallo_sculpte_citrouilles matches 10.. run tellraw @s [{"text":"Sculpteur de citrouille","bold":true,"color":"dark_green"},{"text":":","color":"#D45628","bold":false},{"text":" Super, merci de m'avoir aidé ! On va pouvoir décorer le village pour fêter Halloween !","color":"#699FA2","bold":false}]
+execute if score @s hallo_quete_intro matches 2 if score @s hallo_sculpte_citrouilles matches 10.. run scoreboard players set @s hallo_quete_intro 3
+execute if score @s hallo_quete_intro matches 3 run tellraw @s [{"text":"Objectif","bold":true,"color":"gold"},{"text":":","color":"gold","bold":false},{"text":" Retourner voir le maire de Sanctuarie.","color":"yellow","bold":false}]

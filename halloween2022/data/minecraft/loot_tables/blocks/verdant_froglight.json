@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:prismarine_crystals",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{HideFlags:1,tag:halloween2022,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "text": "Grain sucré",
+                    "color": "#D1F2EB",
+                    "bold": false,
+                    "italic": false
+                  }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [
+                    {
+                      "text": " "
+                    },
+                    [
+                      {
+                        "text": "▼ ",
+                        "color": "dark_purple",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "Minerai violet",
+                        "color": "white",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    {
+                      "text": "Halloween 2022",
+                      "color": "#D45628",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:halloween2022"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:verdant_froglight"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:survives_explosion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

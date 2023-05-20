@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{tag:{Tags:hallo22_T4B1_1}},{tag:{Tags:hallo22_T4B1_2}}]}] as @s at @s run function peaceandcube:events/halloween2022/adr/t4b1_give

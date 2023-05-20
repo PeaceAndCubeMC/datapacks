@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 116,
+                    "max": 130
+                  },
+                  "y": {
+                    "min": 150,
+                    "max": 160
+                  },
+                  "z": {
+                    "min": 78,
+                    "max": 92
+                  }
+                },
+                "dimension": "minecraft:halloween2022"
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "peaceandcube:events/halloween2022/quetes/intro/sculpte_citrouille"
+  }
+}
