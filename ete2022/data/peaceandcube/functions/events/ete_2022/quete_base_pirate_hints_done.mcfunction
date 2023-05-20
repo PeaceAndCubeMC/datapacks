@@ -1,0 +1,3 @@
+tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"J'ai assez d'indices. Je n'arrive toujours pas à croire que le responsable de ces pillages soit le propriétaire de ces terres, le Lord O'Nance.\nJe dois prévenir le capitaine pour faire arreter le Lord !","color":"white"}]
+
+tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Aller voir le Capitaine dans son bureau près du port.","italic":true,"color":"aqua"}]

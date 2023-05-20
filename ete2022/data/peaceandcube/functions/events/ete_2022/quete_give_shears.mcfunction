@@ -1,0 +1,12 @@
+execute if entity @s[scores={ete2022_shears=0}] run give @s shears{display:{Name:'[{"text":"Cisailles de prisonniers","italic":true,"color":"#dddddd","bold":true}]',Lore:['[{"text":"","italic":false}]','[{"text":"Cachée dans les grottes, cette","italic":false,"color":"dark_gray"}]','[{"text":"paire de cisaille permet aux","italic":false,"color":"dark_gray"}]','[{"text":"prisonniers de s\'échapper de la","italic":false,"color":"dark_gray"}]','[{"text":"prison.","italic":false,"color":"dark_gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Grotte de la prison","italic":true,"color":"#6699cc"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"[","italic":false,"color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]"}]']},Enchantments:[{id:efficiency,lvl:6},{id:impaling,lvl:3},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1
+
+execute if entity @s[scores={ete2022_shears=0}] run scoreboard players add @s ete2022_shears 1
+
+execute if entity @s[scores={ete2022_quete=2,ete2022_shears=1..,ete2022_shard=0}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"Voilà un outils qui pourra libérer Pablo. Mais avant de sortir, j'ai vu quelque chose briller de l'autre coté, je devrais aller le récupérer.","color":"white"}]
+
+
+execute if entity @s[scores={ete2022_quete=2,ete2022_shears=1,ete2022_shard=1}] run scoreboard players set @s ete2022_quete 3
+
+execute if entity @s[scores={ete2022_quete=3,ete2022_shears=1,ete2022_shard=1}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"Bon j'ai récupéré la cisaille, maintenant il faut que je retourne voir Pablo.","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=3,ete2022_shears=1,ete2022_shard=1}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Libérer Pablo Ctopus et sortir de la grotte.","italic":true,"color":"aqua"}]

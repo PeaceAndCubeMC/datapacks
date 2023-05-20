@@ -1,0 +1,6 @@
+execute if entity @s[scores={ete2022_quete=9},tag=ete2022_boss] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"text":"Sacha Lutier : ","color":"aqua"},{"text":"Le grand mât est tombé ! On va devoir le réparer le plus vite possible ! Essaye de rejoindre le navire du Lord pour l'arrêter avant qu'il ne coule notre bateau !","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=9},tag=ete2022_boss] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"Je peux m'aider du mât pour rejoindre le bateau d'O'Nance plus facilement.","color":"white"}]
+
+
+execute if entity @s[scores={ete2022_quete=9},tag=ete2022_boss] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Rejoindre le navire du Lord O'Nance et l'arrêter.","italic":true,"color":"aqua"}]

@@ -1,0 +1,4 @@
+#ARMOR_STAND UTILE POUR DES WAYPOINT (tp, save des positions)
+#A KILL A LA FIN DE L'ÉVÉNEMENT (avec le tag ete_quete_armorstand)
+
+/minecraft:summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Invisible:1b,NoBasePlate:1b,Tags:["ete_quete_armorstand","ete_quete_porte_prison"]}

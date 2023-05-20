@@ -1,0 +1,12 @@
+execute if entity @s[scores={ete2022_shard=0}] run give @s amethyst_shard{display:{Name:'[{"text":"Éclat de cristal","bold":true,"color":"#cc99ff"}]',Lore:['[{"text":"","italic":false}]','[{"text":"Une fois taillé, cet éclat de","italic":false,"color":"dark_gray"}]','[{"text":"crystal peut devenir une arme","italic":false,"color":"dark_gray"}]','[{"text":"redoutable.","italic":false,"color":"dark_gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Grotte de la prison","italic":true,"color":"#6699cc"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"[","italic":false,"color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]"}]']},Enchantments:[{id:sharpness,lvl:1}],tag:["ete2022_shard"]} 1
+
+execute if entity @s[scores={ete2022_shard=0}] run scoreboard players add @s ete2022_shard 1
+
+execute if entity @s[scores={ete2022_quete=2,ete2022_shard=1..,ete2022_shears=0}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"Tiens qu'est-ce que ? Je ne pense pas que cet objet me soit utile. Je ferais mieux de trouver un vrai moyen d'ouvrir la cellule de Pablo.","color":"white"}]
+
+
+execute if entity @s[scores={ete2022_quete=2,ete2022_shears=1,ete2022_shard=1}] run scoreboard players set @s ete2022_quete 3
+
+execute if entity @s[scores={ete2022_quete=3,ete2022_shears=1,ete2022_shard=1}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" : ","color":"blue"},{"text":"Bon cet objet là a l'air inutile, mais j'ai récupéré la cisaille ! Maintenant il faut que je retourne voir Pablo.","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=3,ete2022_shears=1,ete2022_shard=1}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Libérer Pablo Ctopus et sortir de la grotte.","italic":true,"color":"aqua"}]

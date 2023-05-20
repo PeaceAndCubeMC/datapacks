@@ -1,0 +1,5 @@
+execute if entity @s[scores={ete2022_quete=5}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" Pablo Ctopus : ","color":"red"},{"text":"Enfin ! Merci beaucoup, tu peux garder la pelle, elle te sera plus utile.","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=5}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"selector":"@s","color":"blue"},{"text":" :","color":"blue"},{"text":" Merci beaucoup !\nBon maintenant il faut que je trouve un autre moyen d'entrer dans la grotte de pirate. Je vais essayer de parler aux habitants du village."}]
+
+execute if entity @s[scores={ete2022_quete=5}] run tellraw @s  ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Se renseigner dans le village sur un autre moyen d'entrer dans le repère des pirates.","italic":true,"color":"aqua"}]

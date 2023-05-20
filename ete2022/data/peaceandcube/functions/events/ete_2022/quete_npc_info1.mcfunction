@@ -1,0 +1,5 @@
+execute unless entity @s[scores={ete2022_quete=-1..}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" *Il a l'air subjugué par la mer, je reviendrai lui parler plus tard*","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=..0}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"selector":"@s","color":"blue"},{"text":" *Il a l'air subjugué par la mer, je reviendrai lui parler plus tard*","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=1..}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"text":"Zac Hassable : ","color":"gold"},{"text":"J'adore l'océan ! mais je préfère rester sur la plage. Surtout ici. Il parait qu'au large les fonds marins sont infinis, et qu'il existe des grottes sous marines ou vivent des monstres marins féroces. Ca me donne la chair de poule d'eau !","color":"white"}]

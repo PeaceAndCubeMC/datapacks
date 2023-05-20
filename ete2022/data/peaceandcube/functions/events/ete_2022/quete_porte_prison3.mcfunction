@@ -1,0 +1,5 @@
+execute if entity @s[scores={ete2022_quete=1}] run scoreboard players set @s ete2022_quete 2
+
+execute if entity @s[scores={ete2022_quete=2}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"] ","color":"dark_green"},{"text":"Pablo Ctopus : ","color":"red"},{"text":"Pssst... Hey toi là-bas, par ici, les pirates m'ont enfermé dans cette cellule à l'écart. J'ai tout essayé pour sortir mais malheureusement j'ai seulement une pelle et ce n'est pas suffisant... Essaie de trouver de quoi me libérer et je nous ferai sortir de là. Tant que tu y es, il parait qu'un cristal repose dans ces grottes.","color":"white"}]
+
+execute if entity @s[scores={ete2022_quete=2}] run tellraw @s ["",{"text":"[","color":"dark_green"},{"text":"Été 2022","color":"green"},{"text":"]","color":"dark_green"},{"text":" ","color":"blue"},{"text":"Objectif Principal :","italic":true,"underlined":true,"color":"light_purple"},{"text":" Trouver le cristal et un moyen de libérer Pablo Ctopus.","italic":true,"color":"aqua"}]
