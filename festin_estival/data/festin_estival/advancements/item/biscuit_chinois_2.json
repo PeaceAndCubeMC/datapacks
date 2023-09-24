@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "biscuit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ],
+          "nbt": "{Tags:[\"fe23_biscuit_chinois\"],fe23_biscuit_chinois:2}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:item/biscuit_chinois_2"
+  }
+}

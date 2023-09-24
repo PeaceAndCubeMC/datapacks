@@ -1,0 +1,5 @@
+execute if entity @s[advancements={festin_estival:deblocage/oignon=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Je ne peux pas accéder à cette boutique pour le moment...","italic":true}]
+execute if entity @s[advancements={festin_estival:deblocage/oignon=false}] run return -1
+
+execute if entity @s[advancements={festin_estival:deblocage/oignon=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Enzo Tique","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Bienvenue dans ma boutique ! Que souhaites-tu acheter ?"}]
+execute if entity @s[advancements={festin_estival:deblocage/oignon=true}] run tp @s -1591.5 106 -388.5 -90 0

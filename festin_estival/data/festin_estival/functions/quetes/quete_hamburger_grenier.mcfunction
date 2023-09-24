@@ -1,0 +1,9 @@
+execute if entity @s[tag=fe23_quete_hamburger_2] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Mike","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Le livre indique qu'il faut aller voir Giuseppe Perroni."}]
+execute if entity @s[tag=fe23_quete_hamburger_2] run return 0
+
+execute if entity @s[tag=fe23_quete_hamburger] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Mike","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Il n'y a pas grand chose dans ce grenier..."}]
+execute if entity @s[tag=fe23_quete_hamburger] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Dustin","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" ... à part ce livre posé dans le pupitre. Que contient-il ?"}]
+execute if entity @s[tag=fe23_quete_hamburger] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Lucas","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Apparemment, il faut aller voir Giuseppe Perroni. "},{"selector":"@s","color":"white"},{"text":", tu t'en charges ?"}]
+execute if entity @s[tag=fe23_quete_hamburger] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Will","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Si on ne se revoit pas, bonne continuation !"}]
+execute if entity @s[tag=fe23_quete_hamburger] run tag @s add fe23_quete_hamburger_2
+execute if entity @s[tag=fe23_quete_hamburger] unless score @s fe23_hamburger matches 0.. run scoreboard players set @s fe23_hamburger 0

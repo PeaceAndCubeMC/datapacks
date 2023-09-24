@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7239}"
+    },
+    "title": "Cidre",
+    "description": "Fabrique du cidre",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "cidre": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

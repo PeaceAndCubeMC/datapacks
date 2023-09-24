@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_get_27] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hum, la caisse est fermée à clé... Je vais demander à Sylvain où se trouve cette clé.","italic":true}]

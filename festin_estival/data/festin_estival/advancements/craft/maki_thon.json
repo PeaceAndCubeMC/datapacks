@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_salmon",
+      "nbt": "{CustomModelData:7234}"
+    },
+    "title": "Maki de thon",
+    "description": "Fabrique un maki de thon",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/riz",
+  "criteria": {
+    "maki_thon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

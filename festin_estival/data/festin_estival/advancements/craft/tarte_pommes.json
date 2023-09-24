@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_pie",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Tarte aux pommes",
+    "description": "Fabrique une tarte aux pommes",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/farine",
+  "criteria": {
+    "tarte_pommes": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beetroot",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Oignon",
+    "description": "Achète un oignon au marchand",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "oignon": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/oignon": true
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:beetroot"
+          ],
+          "nbt": "{Tags:[\"fe23_oignon\"]}"
+        }
+      }
+    }
+  }
+}

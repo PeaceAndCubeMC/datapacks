@@ -1,0 +1,120 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "plant1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_raisin\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1772,
+                    "max": -1771
+                  },
+                  "y": 110,
+                  "z": {
+                    "min": -208,
+                    "max": -207
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plant2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_raisin\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1746,
+                    "max": -1745
+                  },
+                  "y": 108,
+                  "z": {
+                    "min": -204,
+                    "max": -203
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plant3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_raisin\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1745,
+                    "max": -1744
+                  },
+                  "y": 107,
+                  "z": {
+                    "min": -189,
+                    "max": -188
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plant4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_raisin\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1715,
+                    "max": -1714
+                  },
+                  "y": 107,
+                  "z": {
+                    "min": -202,
+                    "max": -201
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_raisin_fin"
+  }
+}

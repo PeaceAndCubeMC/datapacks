@@ -1,0 +1,32 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "creeper": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_popcorn\"]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:creeper",
+              "nbt": "{Tags:[\"fe23_creeper\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_popcorn_creeper"
+  }
+}

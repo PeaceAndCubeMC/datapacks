@@ -1,0 +1,5 @@
+execute unless entity @s[tag=fe23_quete_jus_pomme] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Dis donc, il est en manque de sommeil lui...","italic":true}]
+
+execute if entity @s[tag=fe23_quete_jus_pomme] if entity @s[nbt=!{Inventory:[{tag:{Tags:["fe23_bouteille_pomme"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Alexis Hieste","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hmmm... Hmmm... Qu'est-ce que tu veux... Hmmm..."}]
+execute if entity @s[tag=fe23_quete_jus_pomme] if entity @s[nbt=!{Inventory:[{tag:{Tags:["fe23_bouteille_pomme"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Alexis Hieste","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ah, je me suis endormi. Tiens, rapporte ces bouteilles à Alexandra, elle en a besoin... Zzzzz..."}]
+execute if entity @s[tag=fe23_quete_jus_pomme] if entity @s[nbt=!{Inventory:[{tag:{Tags:["fe23_bouteille_pomme"]}}]}] run give @s glass_bottle{Tags:["fe23_bouteille_pomme"]} 1

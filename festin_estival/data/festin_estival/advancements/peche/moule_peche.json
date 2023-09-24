@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/moule": false
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{Tags:[\"fe23_moule\"]}"
+        }
+      }
+    }
+  }
+}

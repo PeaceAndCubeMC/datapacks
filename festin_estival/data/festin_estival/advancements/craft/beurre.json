@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Beurre",
+    "description": "Fabrique du beurre",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/bouteille_lait",
+  "criteria": {
+    "beurre": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

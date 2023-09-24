@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7234,CustomPotionColor:15896092}"
+    },
+    "title": "Bière",
+    "description": "Fabrique de la bière",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/houblon",
+  "criteria": {
+    "biere": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

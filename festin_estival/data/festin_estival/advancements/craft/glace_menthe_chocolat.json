@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7236}"
+    },
+    "title": "Glace menthe-chocolat",
+    "description": "Fabrique une glace menthe-chocolat",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/menthe",
+  "criteria": {
+    "glace_menthe_chocolat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

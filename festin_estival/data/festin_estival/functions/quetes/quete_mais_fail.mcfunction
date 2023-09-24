@@ -1,0 +1,3 @@
+execute if entity @s[tag=fe23_quete_mais] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Alizée Réale","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Perdu ! Recommence !"}]
+execute if entity @s[tag=fe23_quete_mais] run advancement revoke @s only festin_estival:quetes/mais_fail
+execute if entity @s[tag=fe23_quete_mais] run tp @s -1783 112 -338

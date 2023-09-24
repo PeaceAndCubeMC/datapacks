@@ -1,0 +1,2 @@
+execute if entity @s[tag=fe23_quete_jambon_beurre] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Oh ! Je pense avoir trouvé le coupable... Et le papier doit être cette fameuse recette ! Je vais retourner voir le policier.","italic":true}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] run tag @s add fe23_quete_jambon_beurre_2

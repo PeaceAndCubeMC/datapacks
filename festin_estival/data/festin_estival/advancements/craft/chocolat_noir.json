@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Chocolat noir",
+    "description": "Fabrique du chocolat noir",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "chocolat_noir": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

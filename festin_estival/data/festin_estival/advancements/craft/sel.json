@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Sel",
+    "description": "Pêche du sel",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "sel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/sel": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ],
+            "nbt": "{Tags:[\"fe23_sel\"]}"
+          }
+        ]
+      }
+    }
+  }
+}

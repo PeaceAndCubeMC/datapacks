@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Glace à la pomme",
+    "description": "Fabrique une glace à la pomme",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "glace_pomme": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7237,CustomPotionColor:11604518}"
+    },
+    "title": "Vin rouge",
+    "description": "Fabrique du vin rouge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/raisin",
+  "criteria": {
+    "vin_rouge": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

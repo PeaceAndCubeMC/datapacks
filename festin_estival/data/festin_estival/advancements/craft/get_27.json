@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7240}"
+    },
+    "title": "Get 27",
+    "description": "Fabrique du Get 27",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/menthe",
+  "criteria": {
+    "get_27": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

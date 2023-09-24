@@ -1,0 +1,13 @@
+execute unless entity @s[advancements={festin_estival:deblocage/chocolat_noir=true,festin_estival:deblocage/bouteille_lait=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Il semble occupé, je repasserai plus tard...","italic":true}]
+execute unless entity @s[advancements={festin_estival:deblocage/chocolat_noir=true,festin_estival:deblocage/bouteille_lait=true}] run return -1
+
+execute if entity @s[tag=fe23_quete_chocolat_lait] unless entity @s[tag=fe23_quete_chocolat_lait_3] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Manu Tella","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Pour trouver un nouveau type de chocolat, demande à Latifa Rine !"}]
+
+execute if entity @s[tag=fe23_quete_chocolat_lait] if entity @s[tag=fe23_quete_chocolat_lait_3] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Manu Tella","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Parfait ! Je propose qu'on l'appelle « chocolat au lait » !"}]
+execute if entity @s[tag=fe23_quete_chocolat_lait] if entity @s[tag=fe23_quete_chocolat_lait_3] run advancement grant @s only festin_estival:deblocage/chocolat_lait
+execute if entity @s[tag=fe23_quete_chocolat_lait] if entity @s[tag=fe23_quete_chocolat_lait_3] run tag @s remove fe23_quete_chocolat_lait_2
+execute if entity @s[tag=fe23_quete_chocolat_lait] if entity @s[tag=fe23_quete_chocolat_lait_3] run tag @s remove fe23_quete_chocolat_lait_3
+execute if entity @s[tag=fe23_quete_chocolat_lait] if entity @s[advancements={festin_estival:deblocage/chocolat_lait=true}] run tag @s remove fe23_quete_chocolat_lait
+
+execute unless entity @s[tag=fe23_quete_chocolat_lait] if entity @s[advancements={festin_estival:deblocage/chocolat_lait=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Manu Tella","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Bonjour l'ami ! Pour concurrencer Erica Ramel, j'ai décidé d'ouvrir moi aussi un stand de chocolat. Mais pour cela, je cherche à inventer un nouveau type de chocolat... Tu pourrais en parler à Latifa Rine, pour voir si elle a une idée ?"}]
+execute unless entity @s[tag=fe23_quete_chocolat_lait] if entity @s[advancements={festin_estival:deblocage/chocolat_lait=false}] run tag @s add fe23_quete_chocolat_lait

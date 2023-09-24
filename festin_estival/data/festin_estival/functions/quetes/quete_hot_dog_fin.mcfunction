@@ -1,0 +1,2 @@
+execute if entity @s[tag=fe23_quete_hot_dog_3] run tp @e[type=minecraft:wolf,distance=..15,limit=1,tag=fe23_chien] -1789 111 -436
+execute if entity @s[tag=fe23_quete_hot_dog_3] run data modify entity @e[type=minecraft:wolf,distance=..15,limit=1,tag=fe23_chien] NoAI set value 1b

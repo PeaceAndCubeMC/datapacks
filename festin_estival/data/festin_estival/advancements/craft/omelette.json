@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_pie",
+      "nbt": "{CustomModelData:7232}"
+    },
+    "title": "Omelette",
+    "description": "Fabrique une omelette",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "omelette": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

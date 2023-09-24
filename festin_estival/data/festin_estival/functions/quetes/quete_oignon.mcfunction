@@ -1,0 +1,9 @@
+execute if entity @s[tag=fe23_quete_oignon] if entity @s[nbt=!{Inventory:[{id:"minecraft:water_bucket",tag:{Tags:["fe23_quete_oignon"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Amanda Rine","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" L'abreuvoir se trouve à côté de l'infirmerie. Pourrais-tu y remplir un seau vide très cher ?"}]
+
+execute if entity @s[tag=fe23_quete_oignon] if entity @s[nbt={Inventory:[{id:"minecraft:water_bucket",tag:{Tags:["fe23_quete_oignon"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Amanda Rine","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Grâce à ton aide précieuse, ma bête va reprendre des forces. Va voir mon ami Enzo Tique, il propose un nouveau produit !"}]
+execute if entity @s[tag=fe23_quete_oignon] if entity @s[nbt={Inventory:[{id:"minecraft:water_bucket",tag:{Tags:["fe23_quete_oignon"]}}]}] run advancement grant @s only festin_estival:deblocage/oignon
+execute if entity @s[tag=fe23_quete_oignon] if entity @s[nbt={Inventory:[{id:"minecraft:water_bucket",tag:{Tags:["fe23_quete_oignon"]}}]}] run clear @s water_bucket{Tags:["fe23_quete_oignon"]} 1
+execute if entity @s[tag=fe23_quete_oignon] if entity @s[advancements={festin_estival:deblocage/oignon=true}] run tag @s remove fe23_quete_oignon
+
+execute unless entity @s[tag=fe23_quete_oignon] if entity @s[advancements={festin_estival:deblocage/oignon=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Amanda Rine","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Oh, tu tombes bien très cher. Maintenant que ma bête a bien mangé, elle semble assoiffée ! Pourrais-tu aller remplir un seau vide dans l'abreuvoir à côté de l'infirmerie ?"}]
+execute unless entity @s[tag=fe23_quete_oignon] if entity @s[advancements={festin_estival:deblocage/oignon=false}] run tag @s add fe23_quete_oignon

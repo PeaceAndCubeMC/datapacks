@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Bonbon au miel",
+    "description": "Fabrique un bonbon au miel",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "bonbon_miel": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

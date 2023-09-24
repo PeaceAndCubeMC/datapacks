@@ -1,0 +1,19 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "seau": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon_bucket"
+          ],
+          "nbt": "{display:{Name:'{\"bold\":true,\"italic\":false,\"text\":\"Jérémie\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_sushi_jeremie"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Menthe",
+    "description": "Récolte de la menthe",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "menthe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/menthe": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ],
+            "nbt": "{Tags:[\"fe23_menthe\"]}"
+          }
+        ]
+      }
+    }
+  }
+}

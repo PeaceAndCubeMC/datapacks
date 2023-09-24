@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Hamburger",
+    "description": "Fabrique un hamburger",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/salade_verte",
+  "criteria": {
+    "hamburger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

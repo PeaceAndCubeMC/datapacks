@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Mousse aux trois chocolats",
+    "description": "Fabrique une mousse aux trois chocolats",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/chocolat_lait",
+  "criteria": {
+    "mousse_chocolat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

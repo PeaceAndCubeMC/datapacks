@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:porkchop",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Saucisse",
+    "description": "Fabrique une saucisse",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "saucisse": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

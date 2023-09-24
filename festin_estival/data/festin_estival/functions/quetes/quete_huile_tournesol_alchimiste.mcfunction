@@ -1,0 +1,10 @@
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt=!{Inventory:[{id:"minecraft:potion",tag:{Tags:["fe23_rhum"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ursula Lchimie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Je n'ai rien à te dire sur le coupable ! Je ne le connais pas du tout !"}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt={Inventory:[{id:"minecraft:potion",tag:{Tags:["fe23_rhum"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ursula Lchimie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Oh, merci pour le rhum ! *hips* Alors... Je sais de source sûre qu'Alan Bique n'est pas étranger à la situation..."}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt={Inventory:[{id:"minecraft:potion",tag:{Tags:["fe23_rhum"]}}]}] run clear @s potion{Tags:["fe23_rhum"]} 1
+execute if entity @s[tag=fe23_quete_jambon_beurre] run return 0
+
+execute unless entity @s[tag=fe23_quete_huile_tournesol_2] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ursula Lchimie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Qui veut des bonnes potions ?"}]
+
+execute if entity @s[tag=fe23_quete_huile_tournesol_2] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ursula Lchimie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Alors, comment te le dire... Ce liquide n'a rien d'étrange, c'est juste de l'huile de tournesol..."}]
+execute if entity @s[tag=fe23_quete_huile_tournesol_2] run advancement grant @s only festin_estival:deblocage/huile_tournesol
+execute if entity @s[tag=fe23_quete_huile_tournesol_2] run tag @s remove fe23_quete_huile_tournesol_2

@@ -1,0 +1,8 @@
+execute unless entity @s[tag=fe23_quete_moules_frites] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ça a l'air dangereux, je ne vais pas m'aventurer ici...","italic":true}]
+execute unless entity @s[tag=fe23_quete_moules_frites] run return 0
+
+execute if entity @s[tag=fe23_quete_moules_frites] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ah, ça doit être le temple dont on m'a parlé. Je vais devoir trouver un moyen d'en sortir !","italic":true}]
+execute if entity @s[tag=fe23_quete_moules_frites] positioned 0 60 0 run kill @e[tag=fe23_temple,distance=..50]
+execute if entity @s[tag=fe23_quete_moules_frites] run summon minecraft:stray -1863 98 -464 {DeathLootTable:"minecraft:empty",PersistenceRequired:1b,Health:75f,Rotation:[90F,0F],Tags:["fe23_temple"],CustomName:'{"text":"Sentinelle","color":"#2B4A26"}',HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[-327.670F,0.085F],Attributes:[{Name:generic.max_health,Base:75},{Name:generic.armor,Base:5}]}
+execute if entity @s[tag=fe23_quete_moules_frites] run summon wither_skeleton -1877 98 -464 {DeathLootTable:"minecraft:empty",PersistenceRequired:1b,Health:75f,Rotation:[-90F,0F],Tags:["fe23_temple"],CustomName:'{"text":"Sentinelle","color":"#2B4A26"}',HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[-327.670F,0.085F],Attributes:[{Name:generic.max_health,Base:75},{Name:generic.armor,Base:5}]}
+execute if entity @s[tag=fe23_quete_moules_frites] run tp @s -1869.5 102 -492.5 0 0

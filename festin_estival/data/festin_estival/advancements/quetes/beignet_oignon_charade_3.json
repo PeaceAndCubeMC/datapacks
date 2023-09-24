@@ -1,0 +1,32 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "charade": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_beignet_oignon\"]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"fe23_charade_3\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_beignet_oignon_charade_3"
+  }
+}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_jambon] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hum, quel est donc ce portail... Je vais tenter d'entrer dedans...","italic":true}]

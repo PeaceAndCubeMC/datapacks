@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sweet_berries",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Raisin",
+    "description": "Récolte du raisin",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "raisin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/raisin": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ],
+            "nbt": "{Tags:[\"fe23_raisin\"]}"
+          }
+        ]
+      }
+    }
+  }
+}

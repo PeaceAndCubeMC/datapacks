@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7236,CustomPotionColor:7286184}"
+    },
+    "title": "Jus de raisin",
+    "description": "Fabrique du jus de raisin",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/raisin",
+  "criteria": {
+    "jus_raisin": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

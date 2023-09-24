@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Salade estivale",
+    "description": "Fabrique une salade estivale",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/salade_verte",
+  "criteria": {
+    "salade_estivale": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

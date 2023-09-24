@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_raisin] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hmm, j'ai l'air d'avoir fait le tour... Je vais aller prévenir Sylvie !","italic":true}]

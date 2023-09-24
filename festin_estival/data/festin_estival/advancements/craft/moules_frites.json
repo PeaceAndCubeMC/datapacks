@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_salmon",
+      "nbt": "{CustomModelData:7232}"
+    },
+    "title": "Moules frites",
+    "description": "Obtiens des moules frites",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/moule",
+  "criteria": {
+    "moules_frites": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

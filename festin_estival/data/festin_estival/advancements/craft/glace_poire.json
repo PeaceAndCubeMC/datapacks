@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7232}"
+    },
+    "title": "Glace à la poire",
+    "description": "Fabrique une glace à la poire",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/poire",
+  "criteria": {
+    "glace_poire": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

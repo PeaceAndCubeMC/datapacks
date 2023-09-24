@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_seeds",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Riz",
+    "description": "Récolte du riz",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "riz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/riz": true
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_seeds"
+            ],
+            "nbt": "{Tags:[\"fe23_riz\"]}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "ballon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_huile_tournesol\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1750,
+                    "max": -1749
+                  },
+                  "y": 110,
+                  "z": {
+                    "min": -299,
+                    "max": -298
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_huile_tournesol_flaque"
+  }
+}

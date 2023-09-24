@@ -1,0 +1,4 @@
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Fluflu","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Le festin estival a commencé le lundi 31 juillet, et se terminera le samedi 23 septembre !"}]
+function festin_estival:tout_debloquer
+execute unless entity @s[tag=fe23_cadeau] run give @s sugar{display:{Name:'{"text":"Sel","color":"white","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Grains de sel, parfaits pour donner","color":"gray","italic":false}','{"text":"du goût aux aliments.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7230,Tags:["fe23_sel"]} 256
+execute unless entity @s[tag=fe23_cadeau] run tag @s add fe23_cadeau

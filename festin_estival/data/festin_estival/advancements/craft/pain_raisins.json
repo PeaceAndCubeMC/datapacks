@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Pain aux raisins",
+    "description": "Fabrique un pain aux raisins",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/beurre",
+  "criteria": {
+    "pain_raisins": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

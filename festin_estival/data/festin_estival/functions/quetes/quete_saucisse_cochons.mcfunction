@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_saucisse] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Voilà, le compte est bon ! Plus qu'à retourner voir Eddy Mension.","italic":true}]

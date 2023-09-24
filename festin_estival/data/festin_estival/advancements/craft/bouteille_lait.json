@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7235,CustomPotionColor:16646133}"
+    },
+    "title": "Bouteille de lait",
+    "description": "Fabrique une bouteille de lait",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "bouteille_lait": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

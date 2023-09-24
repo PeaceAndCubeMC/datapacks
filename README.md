@@ -47,3 +47,8 @@ Quests for days 5, 10 and 25 of the advent calendar.
 `Advancements` • `Functions` • `Loot tables` • `Item modifiers` • `Predicates`
 
 Manages quests, scores, dialogues and custom crop loots.
+
+## festin_estival
+`Advancements` • `Functions` • `Loot tables` • `Item modifiers` • `Predicates` • `Structures`
+
+Manages all quests, dialogues, resource gathering, milestones and custom crafts. Gatherable resources are handled with loot tables and structures.

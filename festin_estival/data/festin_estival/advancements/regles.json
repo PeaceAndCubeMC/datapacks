@@ -1,0 +1,33 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1714,
+                    "max": -1694
+                  },
+                  "z": {
+                    "min": -431,
+                    "max": -416
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:regles"
+  }
+}

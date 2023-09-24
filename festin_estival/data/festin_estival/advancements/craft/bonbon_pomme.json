@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Bonbon à la pomme",
+    "description": "Fabrique un bonbon à la pomme",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "bonbon_pomme": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

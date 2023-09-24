@@ -1,0 +1,14 @@
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt=!{Inventory:[{id:"minecraft:sweet_berries",tag:{Tags:["fe23_fraise"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Emma Issoufflé","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Tiens, j'ai un petit creux ! T'aurais pas une fraise pour moi ?"}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt={Inventory:[{id:"minecraft:sweet_berries",tag:{Tags:["fe23_fraise"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Emma Issoufflé","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Merci, ça fait plaisir ! Si tu cherches des informations sur le coupable, essaye de parler à Giuseppe !"}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] if entity @s[nbt={Inventory:[{id:"minecraft:sweet_berries",tag:{Tags:["fe23_fraise"]}}]}] run clear @s sweet_berries{Tags:["fe23_fraise"]} 1
+execute if entity @s[tag=fe23_quete_jambon_beurre] run return 0
+
+execute unless entity @s[advancements={festin_estival:deblocage/mais=true,festin_estival:deblocage/sel=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Elle semble occupée, je repasserai plus tard...","italic":true}]
+execute unless entity @s[advancements={festin_estival:deblocage/mais=true,festin_estival:deblocage/sel=true}] run return -1
+
+execute if entity @s[advancements={festin_estival:deblocage/popcorn_sucre=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Emma Issoufflé","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Merci d'avoir résolu l'mystère ! Je te laisse tranquille maintenant..."}]
+
+execute if entity @s[tag=fe23_quete_popcorn] if entity @s[advancements={festin_estival:deblocage/popcorn_sucre=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Emma Issoufflé","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Va faire un tour près de l'arbre du champ de maïs !"}]
+
+execute unless entity @s[tag=fe23_quete_popcorn] if entity @s[advancements={festin_estival:deblocage/popcorn_sucre=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Emma Issoufflé","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hum, tu tombes bien... J'ai remarqué une bestiole un peu bizarre dans le champ de maïs, j'te laisse aller voir..."}]
+execute unless entity @s[tag=fe23_quete_popcorn] if entity @s[advancements={festin_estival:deblocage/popcorn_sucre=false}] run tag @s add fe23_quete_popcorn

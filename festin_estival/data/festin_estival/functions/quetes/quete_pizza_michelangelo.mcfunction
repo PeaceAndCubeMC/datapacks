@@ -1,0 +1,19 @@
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_4] if entity @s[nbt=!{Inventory:[{id:"minecraft:apple",Count:5b,tag:{Tags:["fe23_tomate"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Michelangelo","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Si tu veux un bout de pizza, rapporte-moi "},{"text":"5","bold":true,"color":"aqua"},{"text":" tomates !"}]
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_4] if entity @s[nbt=!{Inventory:[{id:"minecraft:apple",Count:5b,tag:{Tags:["fe23_tomate"]}}]}] run return 0
+
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_4] if entity @s[nbt={Inventory:[{id:"minecraft:apple",Count:5b,tag:{Tags:["fe23_tomate"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Michelangelo","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Merci bien ! Tiens, goûte-moi ça."}]
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_4] if entity @s[nbt={Inventory:[{id:"minecraft:apple",Count:5b,tag:{Tags:["fe23_tomate"]}}]}] run give @s cooked_beef{display:{Name:'{"text":"Pizza","color":"#B21807","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Plat traditionnel de la cuisine","color":"gray","italic":false}','{"text":"italienne, garnie à souhait sur","color":"gray","italic":false}','{"text":"sur une base de sauce tomate.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7232,Tags:["fe23_pizza"]} 1
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_4] if entity @s[nbt={Inventory:[{id:"minecraft:apple",Count:5b,tag:{Tags:["fe23_tomate"]}}]}] run advancement grant @s only festin_estival:deblocage/pizza
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run clear @s apple{Tags:["fe23_tomate"]} 5
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run tag @s remove fe23_quete_pizza_1
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run tag @s remove fe23_quete_pizza_2
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run tag @s remove fe23_quete_pizza_3
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run tag @s remove fe23_quete_pizza_4
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[advancements={festin_estival:deblocage/pizza=true}] run tag @s remove fe23_quete_pizza
+
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_3] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Michelangelo","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Salut, je m'appelle Michelangelo. Je suis le plus petit de la fratrie, mais c'est pas pour ça que je me laisse faire !"}]
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_3] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Michelangelo","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Si tu me rapportes "},{"text":"5","bold":true,"color":"aqua"},{"text":" tomates, je veux bien partager ma pizza avec toi."}]
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_3] run tag @s add fe23_quete_pizza_4
+execute if entity @s[tag=fe23_quete_pizza] if entity @s[tag=fe23_quete_pizza_3] run return 0
+
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Michelangelo","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Cowabunga !"}]

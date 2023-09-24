@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_porkchop",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Jambon-beurre",
+    "description": "Fabrique un jambon-beurre",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/jambon",
+  "criteria": {
+    "jambon_beurre": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

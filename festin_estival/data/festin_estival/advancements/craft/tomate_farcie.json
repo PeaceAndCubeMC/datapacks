@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Tomate farcie",
+    "description": "Fabrique une tomate farcie",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/tomate",
+  "criteria": {
+    "tomate_farcie": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

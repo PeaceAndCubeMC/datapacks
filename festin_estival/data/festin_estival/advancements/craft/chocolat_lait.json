@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Chocolat au lait",
+    "description": "Fabrique du chocolat au lait",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "chocolat_lait": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

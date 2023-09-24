@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": "Festin Estival",
+    "description": "Progression des recettes réalisées pendant l'event",
+    "background": "minecraft:textures/block/moss_block.png",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

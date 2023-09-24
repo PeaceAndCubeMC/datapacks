@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Salade de fruits",
+    "description": "Fabrique une salade de fruits",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/poire",
+  "criteria": {
+    "salade_fruits": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

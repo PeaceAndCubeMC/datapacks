@@ -1,0 +1,4 @@
+execute if entity @s[tag=fe23_quete_jambon_beurre] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Alan Bique","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Quoi ? Lorenzo Debo a disparu ? Demande à Giuseppe Perroni, il a sûrement des informations supplémentaires."}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] run return 0
+
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Alan Bique","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Place tes ingrédients dans le dropper situé sur l'alambic, en respectant la recette affichée dans ton guide. Le résultat de la recette tombera dans le chaudron.\n Si certaines de tes bouteilles prennent trop de place dans ton inventaire, tu peux en empiler jusqu'à 64 à l'aide de l'empileur d'items derrière toi."}]

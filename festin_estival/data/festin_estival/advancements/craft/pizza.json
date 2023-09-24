@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef",
+      "nbt": "{CustomModelData:7232}"
+    },
+    "title": "Pizza",
+    "description": "Fabrique une pizza",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/tomate",
+  "criteria": {
+    "pizza": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

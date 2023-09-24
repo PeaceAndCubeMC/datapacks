@@ -1,0 +1,11 @@
+execute if entity @s[advancements={festin_estival:deblocage/jambon=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Eddy Mension","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Merci pour ton aide, je vais me renseigner sur ce portail !"}]
+
+execute if entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:quetes/jambon_hoglins=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Eddy Mension","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Va voir à l'étage de la maison !"}]
+execute if entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:quetes/jambon_hoglins=false}] run return 0
+
+execute if entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:quetes/jambon_hoglins=true}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Eddy Mension","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ce portail est très intéressant ! Qu'est-ce que je pourrais bien faire avec cette source de viande illimitée... Oh ! Je sais ! Du jambon !"}]
+execute if entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:quetes/jambon_hoglins=true}] run advancement grant @s only festin_estival:deblocage/jambon
+execute if entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:quetes/jambon_hoglins=true}] run tag @s remove fe23_quete_jambon
+
+execute unless entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:deblocage/jambon=false}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Eddy Mension","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Salut toi ! J'ai entendu du bruit à l'étage, pourrais-tu aller voir ce qu'il se passe ?"}]
+execute unless entity @s[tag=fe23_quete_jambon] if entity @s[advancements={festin_estival:deblocage/jambon=false}] run tag @s add fe23_quete_jambon

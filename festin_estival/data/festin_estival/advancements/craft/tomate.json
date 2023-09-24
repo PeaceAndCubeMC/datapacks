@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Tomate",
+    "description": "Achète une tomate au marchand",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "tomate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/tomate": true
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ],
+          "nbt": "{Tags:[\"fe23_tomate\"]}"
+        }
+      }
+    }
+  }
+}

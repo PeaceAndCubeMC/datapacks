@@ -1,0 +1,4 @@
+execute at @e[type=chicken,limit=1,tag=fe23_poule] run kill @e[type=item,distance=..100,tag=fe23_omelette_omelette]
+execute as @p[tag=fe23_schedule] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Une omelette ? Faut que je montre ça à Enrico Quille !","italic":true}]
+execute as @p[tag=fe23_schedule] run give @s pumpkin_pie{display:{Name:'{"text":"Omelette","color":"#fff68f","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Un des plats préférés des français,","color":"gray","italic":false}','{"text":"fait avec des œufs battus.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7232,Tags:["fe23_omelette"]} 1
+execute as @p[tag=fe23_schedule] run tag @s remove fe23_schedule

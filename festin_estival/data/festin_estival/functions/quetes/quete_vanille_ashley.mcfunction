@@ -1,0 +1,18 @@
+execute unless entity @s[tag=fe23_quete_vanille] unless entity @s[tag=fe23_quete_vanille_2] unless entity @s[tag=fe23_quete_vanille_3] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ashley Gume","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Silence, ça pousse !"}]
+
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[tag=fe23_quete_vanille_3] run return -1
+
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt=!{Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_mais"]}}]}] if entity @s[nbt=!{Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_houblon"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ashley Gume","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Je te rendrai la vanille si tu me donnes soit une faux à maïs, soit une faux à houblon !"}]
+
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_mais"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ashley Gume","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Bon, je préférais une faux à houblon, mais ça fera l'affaire. Tiens, voici la vanille."}]
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_mais"]}}]}] run tag @s add fe23_quete_vanille_3
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_mais"]}}]}] run clear @s golden_hoe{Tags:["fe23_faux_mais"]} 1
+
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_houblon"]}}]}] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ashley Gume","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Bon, je préférais une faux à maïs, mais ça fera l'affaire. Tiens, voici la vanille."}]
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_houblon"]}}]}] run tag @s add fe23_quete_vanille_3
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[nbt={Inventory:[{id:"minecraft:golden_hoe",tag:{Tags:["fe23_faux_houblon"]}}]}] run clear @s golden_hoe{Tags:["fe23_faux_houblon"]} 1
+
+execute if entity @s[tag=fe23_quete_vanille_2] if entity @s[tag=fe23_quete_vanille_3] run give @s stick{display:{Name:'{"text":"Vanille","color":"#F3E5AB","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Une épice au goût sucré, provenant","color":"gray","italic":false}','{"text":"essentiellement de Madagascar.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7230,Tags:["fe23_vanille"]} 3
+
+execute if entity @s[tag=fe23_quete_vanille] unless entity @s[tag=fe23_quete_vanille_2] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ashley Gume","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Il se pourrait que je possède un peu de vanille... Je suis prête à la rendre, si tu me donnes une des faux que tu possèdes..."}]
+execute if entity @s[tag=fe23_quete_vanille] unless entity @s[tag=fe23_quete_vanille_2] run tag @s add fe23_quete_vanille_2

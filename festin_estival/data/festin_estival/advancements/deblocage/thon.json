@@ -1,0 +1,11 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "deblocage": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:deblocage/thon"
+  }
+}

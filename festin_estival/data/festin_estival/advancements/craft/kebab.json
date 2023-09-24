@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef",
+      "nbt": "{CustomModelData:7233}"
+    },
+    "title": "Kebab",
+    "description": "Fabrique un kebab",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/oignon",
+  "criteria": {
+    "kebab": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

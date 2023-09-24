@@ -1,0 +1,6 @@
+execute if entity @s[tag=fe23_quete_fromage_2] run clear @s milk_bucket 1
+execute if entity @s[tag=fe23_quete_fromage_2] run give @s baked_potato{display:{Name:'{"text":"Fromage","color":"#ffa600","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Un aliment gourmand fait à partir","color":"gray","italic":false}','{"text":"de lait, qui se décline sous des","color":"gray","italic":false}','{"text":"centaines de formes à travers le","color":"gray","italic":false}','{"text":"monde.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7231,Tags:["fe23_fromage"]} 1
+execute if entity @s[tag=fe23_quete_fromage_2] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Lucas Membert","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Alors ça, je m'y attendais pas !"}]
+execute if entity @s[tag=fe23_quete_fromage_2] run advancement grant @s only festin_estival:deblocage/fromage
+execute if entity @s[tag=fe23_quete_fromage_2] run tag @s remove fe23_quete_fromage
+execute if entity @s[tag=fe23_quete_fromage_2] run tag @s remove fe23_quete_fromage_2

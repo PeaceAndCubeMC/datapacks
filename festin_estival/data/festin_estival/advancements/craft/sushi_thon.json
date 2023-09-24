@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_salmon",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Sushi de thon",
+    "description": "Fabrique un sushi de thon",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/riz",
+  "criteria": {
+    "sushi_thon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

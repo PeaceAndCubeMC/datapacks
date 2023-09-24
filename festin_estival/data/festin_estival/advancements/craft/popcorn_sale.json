@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potato",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Popcorn salé",
+    "description": "Fabrique du popcorn salé",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/mais",
+  "criteria": {
+    "popcorn": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

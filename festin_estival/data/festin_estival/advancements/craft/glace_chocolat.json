@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Glace au chocolat",
+    "description": "Fabrique une glace au chocolat",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/chocolat_noir",
+  "criteria": {
+    "glace_chocolat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

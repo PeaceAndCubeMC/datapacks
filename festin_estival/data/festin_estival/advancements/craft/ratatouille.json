@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_stew",
+      "nbt": "{CustomModelData:7232}"
+    },
+    "title": "Ratatouille",
+    "description": "Fabrique une ratatouille",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/tomate",
+  "criteria": {
+    "ratatouille": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_chicken",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Hot dog",
+    "description": "Fabrique un hot dog",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/saucisse",
+  "criteria": {
+    "hot_dog": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

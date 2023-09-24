@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:6}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:8}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:9}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "festin_estival:biscuit_chinois"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fe23_biscuit_chinois:10}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

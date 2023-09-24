@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Apprenti cuistot",
+    "description": "Récupère le guide des recettes",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "guide": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7230,CustomPotionColor:16165135}"
+    },
+    "title": "Huile de tournesol",
+    "description": "Fabrique de l'huile de tournesol",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "huile_tournesol": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sugar",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Farine",
+    "description": "Fabrique de la farine",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "farine": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

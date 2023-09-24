@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7233}"
+    },
+    "title": "Glace à la fraise",
+    "description": "Fabrique une glace à la fraise",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/fraise",
+  "criteria": {
+    "glace_fraise": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

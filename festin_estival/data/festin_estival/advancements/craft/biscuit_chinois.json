@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:7233}"
+    },
+    "title": "Biscuit chinois",
+    "description": "Fabrique un biscuit chinois",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/beurre",
+  "criteria": {
+    "biscuit_chinois": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

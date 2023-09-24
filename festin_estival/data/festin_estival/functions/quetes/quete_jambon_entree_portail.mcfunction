@@ -1,0 +1,3 @@
+execute if entity @s[tag=fe23_quete_jambon] run tp @s -1642 89 -398 -90 0
+execute if entity @s[tag=fe23_quete_jambon] run advancement revoke @s only festin_estival:quetes/jambon_entree_portail
+execute if entity @s[tag=fe23_quete_jambon] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Je vais tuer quelques-unes de ces bêtes...","italic":true}]

@@ -1,0 +1,4 @@
+execute if entity @s[tag=fe23_quete_hot_dog] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Paul","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" B'jour ! J'ai arrêté de courir après le chien, mais il est parti de l'autre côté du pont, en direction des champs... Il doit pas être très loin !"}]
+execute if entity @s[tag=fe23_quete_hot_dog] run tag @s add fe23_quete_hot_dog_2
+
+execute unless entity @s[tag=fe23_quete_hot_dog] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Paul","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" B'jour m'sieur !"}]

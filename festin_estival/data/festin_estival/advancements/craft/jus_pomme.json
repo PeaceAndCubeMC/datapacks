@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7231,CustomPotionColor:16232038}"
+    },
+    "title": "Jus de pomme",
+    "description": "Fabrique du jus de pomme",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "jus_pomme": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

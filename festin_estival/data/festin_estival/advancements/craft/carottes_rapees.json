@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Carottes râpées",
+    "description": "Fabrique des carottes râpées",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "carottes_rapees": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

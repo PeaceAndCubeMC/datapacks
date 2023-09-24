@@ -1,0 +1,53 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Raisin",
+      "color": "#6F2DA8",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "replace": true,
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Fruit de la vigne poussant sous la",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "forme de grappes, servant surtout",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "à la fabrication de vin.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Festin Estival",
+        "color": "#78D77C",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Été 2023",
+        "color": "#AAC8A7",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:7230,Tags:[\"fe23_raisin\"]}"
+  }
+]

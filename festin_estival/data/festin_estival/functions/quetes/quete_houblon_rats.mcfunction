@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_houblon] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Voilà une bonne chose de faite ! Je vais prévenir Sarah Griculteur de ce pas...","italic":true}]

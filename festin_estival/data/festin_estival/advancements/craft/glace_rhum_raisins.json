@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7234}"
+    },
+    "title": "Glace au rhum-raisins",
+    "description": "Fabrique une glace au rhum-raisins",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/rhum",
+  "criteria": {
+    "glace_rhum_raisins": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

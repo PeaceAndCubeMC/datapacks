@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"fe23_quete_sel\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:deblocage/sel": false
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:sugar"
+          ],
+          "nbt": "{Tags:[\"fe23_sel\"]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "festin_estival:quetes/houblon": {
+                    "1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    },
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_houblon\"]}"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"fe23_rat\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_houblon_rats"
+  }
+}

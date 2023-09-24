@@ -1,0 +1,5 @@
+execute if entity @s[advancements={festin_estival:deblocage/omelette=true}] positioned ~1 ~2.6 ~ if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:egg"}},sort=nearest,limit=1] run function festin_estival:craft/poele_a_frire_omelette
+
+execute if entity @s[advancements={festin_estival:deblocage/popcorn_sale=true}] positioned ~1 ~2.6 ~ if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:sugar",tag:{Tags:["fe23_sel"]}}},sort=nearest,limit=1] if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:wheat",tag:{Tags:["fe23_mais"]}}},sort=nearest,limit=1] run function festin_estival:craft/poele_a_frire_popcorn_sale
+
+execute if entity @s[advancements={festin_estival:deblocage/popcorn_sucre=true}] positioned ~1 ~2.6 ~ if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:sugar"}},sort=nearest,limit=1] if entity @e[type=item,distance=..0.7,nbt={Item:{id:"minecraft:wheat",tag:{Tags:["fe23_mais"]}}},sort=nearest,limit=1] run function festin_estival:craft/poele_a_frire_popcorn_sucre

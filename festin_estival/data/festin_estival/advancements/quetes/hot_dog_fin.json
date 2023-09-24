@@ -1,0 +1,39 @@
+{
+  "parent": "festin_estival:craft/root",
+  "criteria": {
+    "chien": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"fe23_quete_hot_dog_3\"]}",
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1790,
+                    "max": -1788
+                  },
+                  "y": {
+                    "min": 116,
+                    "max": 117
+                  },
+                  "z": {
+                    "min": -435,
+                    "max": -432
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "festin_estival:quetes/quete_hot_dog_fin"
+  }
+}

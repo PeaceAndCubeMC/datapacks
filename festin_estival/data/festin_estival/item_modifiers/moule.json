@@ -1,0 +1,48 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Moule",
+      "color": "#455565",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "replace": true,
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Un mollusque doté d'une coquille,",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "se trouvant sur les côtes maritimes.",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Festin Estival",
+        "color": "#78D77C",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": "Été 2023",
+        "color": "#AAC8A7",
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:7230,Tags:[\"fe23_moule\"]}"
+  }
+]

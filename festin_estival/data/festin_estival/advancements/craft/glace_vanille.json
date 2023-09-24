@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{CustomModelData:7235}"
+    },
+    "title": "Glace à la vanille",
+    "description": "Fabrique une glace à la vanille",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/vanille",
+  "criteria": {
+    "glace_vanille": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

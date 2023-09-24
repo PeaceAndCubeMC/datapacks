@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Pain au chocolat",
+    "description": "Fabrique un pain au chocolat",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/beurre",
+  "criteria": {
+    "pain_chocolat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

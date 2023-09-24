@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_salmon",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Sushi de saumon",
+    "description": "Fabrique un sushi de saumon",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/riz",
+  "criteria": {
+    "sushi_saumon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

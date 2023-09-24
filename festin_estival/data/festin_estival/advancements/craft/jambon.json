@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:porkchop",
+      "nbt": "{CustomModelData:7230}"
+    },
+    "title": "Jambon",
+    "description": "Fabrique du jambon",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "jambon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

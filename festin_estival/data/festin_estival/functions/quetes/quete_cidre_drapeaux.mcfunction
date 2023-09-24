@@ -1,0 +1,1 @@
+execute if entity @s[tag=fe23_quete_cidre] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ouf, j'ai enfin trouvé les 12 drapeaux. Plus qu'à prévenir Ambre Tagne !","italic":true}]

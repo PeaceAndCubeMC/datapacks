@@ -1,0 +1,7 @@
+execute if entity @s[tag=fe23_quete_vin_rouge] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Mike","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Merci beaucoup !"}]
+execute if entity @s[tag=fe23_quete_vin_rouge] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Lucas","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Elle est bien remplie cette cave..."}]
+execute if entity @s[tag=fe23_quete_vin_rouge] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Dustin","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" C'est vrai, regardons de plus près !"}]
+execute if entity @s[tag=fe23_quete_vin_rouge] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Will","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Ce sont des bouteilles ! Des bouteilles de vin !"}]
+execute if entity @s[tag=fe23_quete_vin_rouge] run advancement grant @s only festin_estival:deblocage/vin_rouge
+execute if entity @s[tag=fe23_quete_vin_rouge] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Allez, c'est le moment de ressortir."}]
+execute if entity @s[tag=fe23_quete_vin_rouge] run tag @s remove fe23_quete_vin_rouge

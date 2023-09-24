@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ken","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hi Barbie !"}]
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Barbie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Hi Ken !"}]
+
+execute if entity @s[tag=fe23_quete_jambon_beurre] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Ken","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Nous avons entendu parler du chef disparu... Quelle tragédie !"}]
+execute if entity @s[tag=fe23_quete_jambon_beurre] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Barbie","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Le coupable a du passer par cette route... Demande à la vendeuse de potions du marché !"}]

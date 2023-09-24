@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7238,CustomPotionColor:7956873}"
+    },
+    "title": "Rhum",
+    "description": "Fabrique du rhum",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "rhum": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_pie",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Gâteau au chocolat",
+    "description": "Fabrique un gâteau au chocolat",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/farine",
+  "criteria": {
+    "gateau_chocolat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

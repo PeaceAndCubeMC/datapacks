@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:baked_potato",
+      "nbt": "{CustomModelData:7231}"
+    },
+    "title": "Fromage",
+    "description": "Fabrique du fromage",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/bouteille_lait",
+  "criteria": {
+    "fromage": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

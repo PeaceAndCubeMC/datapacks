@@ -1,0 +1,8 @@
+execute if entity @s[tag=fe23_quete_carottes_rapees] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Francisco Léreux","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Tu veux jouer à ça ? Regarde ce que je lui fais à ta carotte !"}]
+execute if entity @s[tag=fe23_quete_carottes_rapees] run clear @s minecraft:carrot 1
+execute if entity @s[tag=fe23_quete_carottes_rapees] run give @s carrot{display:{Name:'{"text":"Carottes râpées","color":"#ED9121","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Des carottes, mais râpées.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},CustomModelData:7230,Tags:["fe23_carottes_rapees"]} 1
+execute if entity @s[tag=fe23_quete_carottes_rapees] run advancement grant @s only festin_estival:deblocage/carottes_rapees
+execute if entity @s[tag=fe23_quete_carottes_rapees] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Francisco Léreux","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Bats-toi avec une vraie arme !"}]
+execute if entity @s[tag=fe23_quete_carottes_rapees] run tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"selector":"@s","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Je crois que je vais devoir le mettre KO pour le calmer...","italic":true}]
+execute if entity @s[tag=fe23_quete_carottes_rapees] run effect clear @e[type=husk,distance=..20,tag=fe23_husk] minecraft:resistance
+execute if entity @s[tag=fe23_quete_carottes_rapees] run tag @s remove fe23_quete_carottes_rapees

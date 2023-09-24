@@ -1,0 +1,7 @@
+tellraw @s ["",{"text":"\n [","bold":true,"color":"gray"},{"text":"Augustin Firmier","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" La menthe noisette n'est pas une espèce de menthe. Félicitations, tu as répondu à toutes les questions !"}]
+tellraw @s ["",{"text":" [","bold":true,"color":"gray"},{"text":"Augustin Firmier","bold":true,"color":"#78D77C"},{"text":"]","bold":true,"color":"gray"},{"text":" Grâce à cet outil, tu peux désormais récolter de la menthe, dans les champs de la ville ou chez toi. Si tu le perds, va voir le forgeron !"}]
+
+give @s shears{display:{Name:'{"text":"Sécateur à menthe","color":"#3EB489","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Cet outil permet de récolter de","color":"gray","italic":false}','{"text":"la menthe à la place des grandes","color":"gray","italic":false}','{"text":"fougères.","color":"gray","italic":false}','{"text":" "}','{"text":"Festin Estival","color":"#78D77C","bold":true,"italic":false}','{"text":"Été 2023","color":"#AAC8A7","italic":false}']},Tags:["fe23_secateur_menthe"],Enchantments:[{id:"minecraft:unbreaking",lvl:10s}]} 1
+advancement grant @s only festin_estival:deblocage/menthe
+
+execute at @s run tp @s ~2 ~ ~

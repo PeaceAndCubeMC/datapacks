@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7233,CustomPotionColor:9069144}"
+    },
+    "title": "Chocolat chaud",
+    "description": "Fabrique un chocolat chaud",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/bouteille_lait",
+  "criteria": {
+    "chocolat_chaud": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

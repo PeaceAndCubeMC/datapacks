@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:7232,CustomPotionColor:14897973}"
+    },
+    "title": "Sirop de coquelicot",
+    "description": "Fabrique du sirop de coquelicot",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "festin_estival:craft/guide",
+  "criteria": {
+    "sirop_coquelicot": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
