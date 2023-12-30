@@ -52,3 +52,8 @@ Manages quests, scores, dialogues and custom crop loots.
 `Advancements` • `Functions` • `Loot tables` • `Item modifiers` • `Predicates` • `Structures`
 
 Manages all quests, dialogues, resource gathering, milestones and custom crafts. Gatherable resources are handled with loot tables and structures.
+
+## halloween2023
+`Advancements` • `Functions` • `Loot tables`
+
+Manages all mob and boss kill counts, dialogues, milestones and quests. The final boss drops are handled with a loot table.

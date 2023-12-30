@@ -1,0 +1,208 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "crane1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/halloween_2019": {
+                    "mairie": true,
+                    "manoir": true,
+                    "ferme": true
+                  }
+                }
+              },
+			  "location": {
+                "position": {
+                  "x": {
+                    "min": -2978.5,
+                    "max": -2976.5
+                  },
+				  "y": {
+                    "min": 51.5,
+                    "max": 53.5
+                  },
+                  "z": {
+                    "min": -410.5,
+                    "max": -408.5
+                  }
+                },
+				"dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+	"crane2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/halloween_2019": {
+                    "mairie": true,
+                    "manoir": true,
+                    "ferme": true
+                  }
+                }
+              },
+			  "location": {
+                "position": {
+                  "x": {
+                    "min": -3004.5,
+                    "max": -3002.5
+                  },
+				  "y": {
+                    "min": 51.5,
+                    "max": 53.5
+                  },
+                  "z": {
+                    "min": -424.5,
+                    "max": -422.5
+                  }
+                },
+				"dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+	"crane3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/halloween_2019": {
+                    "mairie": true,
+                    "manoir": true,
+                    "ferme": true
+                  }
+                }
+              },
+			  "location": {
+                "position": {
+                  "x": {
+                    "min": -3004.5,
+                    "max": -3002.5
+                  },
+				  "y": {
+                    "min": 51.5,
+                    "max": 53.5
+                  },
+                  "z": {
+                    "min": -409.5,
+                    "max": -407.5
+                  }
+                },
+				"dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+	"crane4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/halloween_2019": {
+                    "mairie": true,
+                    "manoir": true,
+                    "ferme": true
+                  }
+                }
+              },
+			  "location": {
+                "position": {
+                  "x": {
+                    "min": -2992.5,
+                    "max": -2990.5
+                  },
+				  "y": {
+                    "min": 51.5,
+                    "max": 53.5
+                  },
+                  "z": {
+                    "min": -410.5,
+                    "max": -408.5
+                  }
+                },
+				"dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    },
+	"crane5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/halloween_2019": {
+                    "mairie": true,
+                    "manoir": true,
+                    "ferme": true
+                  }
+                }
+              },
+			  "location": {
+                "position": {
+                  "x": {
+                    "min": -2986.5,
+                    "max": -2984.5
+                  },
+				  "y": {
+                    "min": 51.5,
+                    "max": 53.5
+                  },
+                  "z": {
+                    "min": -417.5,
+                    "max": -415.5
+                  }
+                },
+				"dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "halloween2023:epreuve/halloween_2019"
+  }
+}

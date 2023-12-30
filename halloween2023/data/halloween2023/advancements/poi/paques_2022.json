@@ -1,0 +1,17 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "fontaine": {
+      "trigger": "minecraft:impossible"
+    },
+	"haricot": {
+      "trigger": "minecraft:impossible"
+    },
+	"taupe": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

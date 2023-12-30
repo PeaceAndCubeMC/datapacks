@@ -1,0 +1,2 @@
+scoreboard objectives remove h23_cravebi
+scoreboard objectives add h23_cravebi dummy

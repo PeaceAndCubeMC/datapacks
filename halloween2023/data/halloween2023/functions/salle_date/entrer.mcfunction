@@ -1,0 +1,12 @@
+execute unless score @s h23_avancee matches 0.. in minecraft:event run tp @s -3027.5 37 -38.5 180 0
+execute if score @s h23_avancee matches 0 in minecraft:event run tp @s -3027.5 37 -38.5 180 0
+execute if score @s h23_avancee matches 1 in minecraft:event run tp @s -3027.5 18 -38.5 180 0  
+execute if score @s h23_avancee matches 2 in minecraft:event run tp @s -3027.5 -1 -38.5 180 0
+execute if score @s h23_avancee matches 3 in minecraft:event run tp @s -3003.5 37 -38.5 180 0 
+execute if score @s h23_avancee matches 4 in minecraft:event run tp @s -3003.5 18 -38.5 180 0 
+execute if score @s h23_avancee matches 5 in minecraft:event run tp @s -3003.5 -1 -38.5 180 0 
+execute if score @s h23_avancee matches 6 in minecraft:event run tp @s -2979.5 37 -38.5 180 0 
+execute if score @s h23_avancee matches 7 in minecraft:event run tp @s -2979.5 18 -38.5 180 0 
+execute if score @s h23_avancee matches 8 in minecraft:event run tp @s -2979.5 -1 -38.5 180 0 
+execute if score @s h23_avancee matches 9 in minecraft:event run tp @s -3003.5 56 -38.5 180 0
+execute if score @s h23_avancee matches 10 in minecraft:event run tp @s -3027.5 56 -38.5 180 0

@@ -1,0 +1,3 @@
+execute as @s if entity @s[advancements={halloween2023:poi/deroute={ange=true,pyramide=true}}] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Il semblerait que tu doives sortir de ce labyrinthe pour revenir dans le présent. Je te laisse gérer, moi j'ai pas besoin de ça pour sortir !","color":"#C5CDB5","bold":false}]
+
+execute as @s if entity @s[advancements={halloween2023:poi/deroute={ange=true,pyramide=true}}] run tp @s -3090.5 69 -194.5

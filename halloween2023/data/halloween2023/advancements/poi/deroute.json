@@ -1,0 +1,14 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "ange": {
+      "trigger": "minecraft:impossible"
+    },
+	"pyramide": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

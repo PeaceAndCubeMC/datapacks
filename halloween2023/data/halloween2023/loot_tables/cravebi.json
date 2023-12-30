@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Caboche de Cravebi\",\"color\":\"#187800\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"enchantment.minecraft.binding_curse\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cette armure recouverte\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"d\\'un métal corrosif la\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"rend piquante.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1301323917,318259558,-1856051476,-758586116],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1242320544,-1419162578,-1469422744,-746593787],Slot:\"head\"}],Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:eye\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chemisette de Cravebi\",\"color\":\"#187800\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"enchantment.minecraft.binding_curse\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cette armure recouverte\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"d\\'un métal corrosif la\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"rend piquante.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1183338287,-1306836821,-1094360773,2142976076],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-762783883,-1980086972,-1873218039,-1937327034],Slot:\"chest\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-1230616111,1152010705,-1671371382,936799685],Slot:\"chest\"}],Trim:{material:\"minecraft:gold\",pattern:\"minecraft:snout\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gambettes de Cravebi\",\"color\":\"#187800\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"enchantment.minecraft.binding_curse\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cette armure recouverte\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"d\\'un métal corrosif la\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"rend piquante.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:2s},{id:\"minecraft:swift_sneak\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1542069824,1831288885,-1231409533,875040603],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1540745157,-1540144773,-1492625418,606468408],Slot:\"legs\"}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:silence\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Petons de Cravebi\",\"color\":\"#187800\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"enchantment.minecraft.binding_curse\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cette armure recouverte\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"d\\'un métal corrosif la\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"rend piquante.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:2s},{id:\"minecraft:soul_speed\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1382895378,-1916647728,-1541573063,1178507471],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1139979230,168380252,-1680283482,-1951371053],Slot:\"feet\"}],Trim:{material:\"minecraft:copper\",pattern:\"minecraft:ward\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lame de Cravebi\",\"color\":\"#187800\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Cette lame tranchante\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"fut la propriété du \",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"légendaire Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:flame\",lvl:1s},{id:\"minecraft:mending\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;834365862,1872117988,-1139833409,-1201623278],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-5064327,1416055293,-1717282507,-1796886260],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1538102822,1771194577,-1078023297,1302785442],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Fleur corrompue\",\"color\":\"#473D3D\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Curse of Binding\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cette fleur corrompue arrête\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"tout esprit en contradiction\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"avec ses valeurs.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:0,UUID:[I;-104317180,674384929,-1260027461,-1737641933],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ]
+    }
+  ]
+}

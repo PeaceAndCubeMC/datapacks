@@ -1,0 +1,17 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "citrouille": {
+      "trigger": "minecraft:impossible"
+    },
+	"maison": {
+      "trigger": "minecraft:impossible"
+    },
+	"pyramide": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

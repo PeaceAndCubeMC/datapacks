@@ -1,0 +1,7 @@
+execute if score @s h23_connaissance_2017 < palier h23_connaissance_2017 unless entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Bon, plus de doute, notre façon de procéder a l'air de fonctionner. Par contre, si on peut tomber sur des endroits à peu moins lugubres pour les prochaines années, ça m'arrangerait. Je t'attends ici, va récolter des connaissances sur l'année 2017 auprès des créatures du gouffre.","color":"#C5CDB5","bold":false}]
+
+execute if entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Année 2017, tiens-toi prête !","color":"#C5CDB5","bold":false}]
+execute if entity @s[tag=h23_tp_ready] run tp @s -3075.5 28 -692.5 -90 0
+
+execute if score @s h23_connaissance_2017 >= palier h23_connaissance_2017 unless entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Parfait, on va trier toutes ces connaissances sur l'année 2017 ! Dès que tu es prêt à t'y rendre, reviens me parler !","color":"#C5CDB5","bold":false}]
+execute if score @s h23_connaissance_2017 >= palier h23_connaissance_2017 unless entity @s[tag=h23_tp_ready] run tag @s add h23_tp_ready

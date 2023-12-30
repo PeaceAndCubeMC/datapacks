@@ -1,0 +1,17 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "champs": {
+      "trigger": "minecraft:impossible"
+    },
+	"cimetiere": {
+      "trigger": "minecraft:impossible"
+    },
+	"friandise": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

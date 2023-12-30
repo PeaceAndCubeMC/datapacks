@@ -1,0 +1,586 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"14": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"13": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"12": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"11": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"10": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"9": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"8": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"7": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"6": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"5": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"4": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"3": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"2": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+				"advancements": {
+					"halloween2023:quete/trash_2022": {
+						"1": true
+					}
+				}
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_avancee": {
+                "min": 0
+              }
+            }
+          },
+		  {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "h23_quete": 0
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"h23_2022\",\"h23_trash\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "halloween2023:quete/fin_2022"
+  }
+}

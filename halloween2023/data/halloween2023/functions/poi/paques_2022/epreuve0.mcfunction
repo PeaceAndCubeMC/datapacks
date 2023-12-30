@@ -1,0 +1,3 @@
+execute as @s if entity @s[advancements={halloween2023:poi/paques_2022={taupe=true,fontaine=true,haricot=true}}] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Évidemment, pas d'escalier pour arriver en haut. Je te laisse grimper et on se retrouve de l'autre côté.","color":"#C5CDB5","bold":false}]
+
+execute as @s if entity @s[advancements={halloween2023:poi/paques_2022={taupe=true,fontaine=true,haricot=true}}] run tp @s -3110.5 -5 -316.5 -100 0

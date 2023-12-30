@@ -1,0 +1,8 @@
+execute unless score @s h23_monnaie matches 80.. run tellraw @s [{"text":"Simba Biole","bold":true,"color":"#024050"},{"text":" : Tu n'as pas assez de pièces temporelles !","color":"#C5CDB5","bold":false}]
+execute unless score @s h23_monnaie matches 80.. run advancement revoke @s only halloween2023:boutique/relique_2019
+execute unless score @s h23_monnaie matches 80.. run return -1
+
+execute if score @s h23_monnaie matches 80.. run give @s diamond_sword{display:{Name:'{"text":"Relique de César","color":"#61C3CB","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Une épée légendaire utilisée","color":"#FAFAFA","italic":false}','{"text":"par l\'empereur César.","color":"#FAFAFA","italic":false}','{"text":" "}','[{"text":"Origine : ","color":"#C5CDB5","italic":false},{"text":"Pacques 2019","color":"#C5CDB5","bold":true,"italic":false}]','{"text":"Halloween 2023","color":"#024050","bold":true,"italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:6s},{id:"minecraft:bane_of_arthropods",lvl:3s},{id:"minecraft:knockback",lvl:2s},{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:looting",lvl:5s},{id:"minecraft:unbreaking",lvl:4s},{id:"minecraft:mending",lvl:1s}]} 1
+execute if score @s h23_monnaie matches 80.. at @s run playsound minecraft:block.amethyst_block.resonate master @s ~ ~ ~
+execute if score @s h23_monnaie matches 80.. run tellraw @s [{"text":"Simba Biole","bold":true,"color":"#024050"},{"text":" : Merci d'avoir acheté la ","color":"#C5CDB5","bold":false},{"text":"Relique de César","color":"#C5CDB5"},{"text":" contre 80 pièces temporelles !","color":"#C5CDB5","bold":false}]
+execute if score @s h23_monnaie matches 80.. run scoreboard players remove @s h23_monnaie 80

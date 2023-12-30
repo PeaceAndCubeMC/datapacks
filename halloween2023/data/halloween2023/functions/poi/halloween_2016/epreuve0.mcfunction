@@ -1,0 +1,3 @@
+execute as @s if entity @s[advancements={halloween2023:poi/halloween_2016={citrouille=true,maison=true,pyramide=true}}] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Un quizz ? J'en sais sûrement plus que toi, mais j'ai des connaissances à trier donc bon courage !","color":"#C5CDB5","bold":false}]
+
+execute as @s if entity @s[advancements={halloween2023:poi/halloween_2016={citrouille=true,maison=true,pyramide=true}}] run tp @s -2986.5 -21 -1012.5 90 0

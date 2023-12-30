@@ -1,0 +1,14 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "driade": {
+      "trigger": "minecraft:impossible"
+    },
+	"zoglin": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    },
+	"2": {
+      "trigger": "minecraft:impossible"
+    },
+	"3": {
+      "trigger": "minecraft:impossible"
+    },
+	"4": {
+      "trigger": "minecraft:impossible"
+    },
+	"5": {
+      "trigger": "minecraft:impossible"
+    },
+	"6": {
+      "trigger": "minecraft:impossible"
+    },
+	"7": {
+      "trigger": "minecraft:impossible"
+    },
+	"8": {
+      "trigger": "minecraft:impossible"
+    },
+	"9": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

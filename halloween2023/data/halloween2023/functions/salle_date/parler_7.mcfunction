@@ -1,0 +1,7 @@
+execute if score @s h23_connaissance_2021 < palier h23_connaissance_2021 unless entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Malgré ma peur d'Halloween et de toutes ces bestioles, les souvenirs de cette année 2020 sont incroyables ! Elle a battu tous les records, avec plein de joueurs et d'événements.\nC'est les émotions... Mais cessons de rêvasser. Va récolter les données de l'année 2021 dans le gouffre !","color":"#C5CDB5","bold":false}]
+
+execute if entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : J'espère qu'on va pas tomber dans l'enfer qu'était Halloween 2021...","color":"#C5CDB5","bold":false}]
+execute if entity @s[tag=h23_tp_ready] run tp @s -2982.5 20 -197.5 125 0
+
+execute if score @s h23_connaissance_2021 >= palier h23_connaissance_2021 unless entity @s[tag=h23_tp_ready] run tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Il est temps de réordonner les connaissances de 2021. Dès que tu es prêt à t'y rendre, reviens me parler !","color":"#C5CDB5","bold":false}]
+execute if score @s h23_connaissance_2021 >= palier h23_connaissance_2021 unless entity @s[tag=h23_tp_ready] run tag @s add h23_tp_ready

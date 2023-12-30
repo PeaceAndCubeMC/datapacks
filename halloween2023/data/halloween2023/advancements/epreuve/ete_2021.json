@@ -1,0 +1,136 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "bulbe1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/ete_2021": {
+                    "driade": true,
+                    "zoglin": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"h23_bulbe1\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"bulbe2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/ete_2021": {
+                    "driade": true,
+                    "zoglin": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"h23_bulbe2\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"bulbe3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/ete_2021": {
+                    "driade": true,
+                    "zoglin": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"h23_bulbe3\"]}"
+            }
+          }
+        ]
+      }
+    },
+	"bulbe4": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "halloween2023:poi/ete_2021": {
+                    "driade": true,
+                    "zoglin": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:zombie",
+			  "nbt": "{Tags:[\"h23_bulbe4\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "halloween2023:epreuve/ete_2021"
+  }
+}

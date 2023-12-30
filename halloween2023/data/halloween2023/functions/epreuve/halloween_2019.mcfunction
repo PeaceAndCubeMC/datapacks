@@ -1,0 +1,2 @@
+execute at @s run playsound minecraft:item.hoe.till master @s ~ ~ ~
+tellraw @s [{"text":"Bob le Bot","bold":true,"color":"#024050"},{"text":" : Tu as retrouvé tous les crânes ! Retourne dans l'église pour la suite.","color":"#C5CDB5","bold":false}]

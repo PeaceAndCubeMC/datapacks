@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Tête de Sbire\",\"color\":\"#82F6AD\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"La tête d\\'un des sbires\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"du Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Enchantments:[{id:\"minecraft:protection\",lvl:6s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"},SkullOwner:{Properties:{textures:[{Signature:\"CNNQxzNuLc0alo/4ofZ1+sy3Q8IBryLVtSgoo09xazzN6yMckrv6Bwqk6L0wXOhnf47t1kq+0ROCzna1OMQrpMq9LrvmEaQQVYbQ6eFAongKd4CmNbZgtCgZUN6nbxkgyxDmBoU2uI4yCpqDBBdNvss+xNx7Q3+NTSUQWty58mlmpj2NXqowQDEMGAt9Uo16Q3CRr9e5rSMVOi4Fb7jjQU54SXfo81Y70IM/93jQKZbC4YnSI5Ze9oDWTqrTPxCk3nssU7bKI4RJStofloKuJsV9XfarmyAz47nDtlkstmRd/8bnxgUdfoHEKEgdke0EZnNjpCSDW8YzY/wmSXDjUZ41myI3/iMVGZEYP69HEvwuieFzQaI99NcIFugSvM/AXozf9JSs/VV15J7xgJZFpH9kMt8kJkvLyj5USbVwQZSOjnmL6wcfPlf4tbjgA+RCxwf4OdghTPlHcsZ75pdiHl7qEBw4n0XrLjuheFoAt1jGgCL+yRbXuJTYlGwCTPQETY4HLMPoaXgQlZpf3qakD+72wQz2ksE14MC6IqOBKIpvz+gz7tUDq9T9GUBmvurwxvCH8iKrSAocXcPmp7i7vzUEpmpv2pgZVu6QunVWee8rWNe6ARdaQ2T6ga2Bc/U1+HUuPLmjvxMPFUDQZMIWO2vM4TQf6tWkX6XP9+viqio=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMDcwMzM3MDA4OSwKICAicHJvZmlsZUlkIiA6ICIyNjdjYjk0YzY2OGI0OTI0YmVmYWM4NDAzMjgxYWQzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYzRyaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWRiZjJkOGRhODJkOGVlN2RlYzE0YWMwYTQwOTYzNTg0OWI2MjM4ZTkxMGNjNzAyNDg2YjI4ZWZjZjc4YzA2IgogICAgfQogIH0KfQ==\"}]}},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-373571963,1905346879,-2074508883,-1827375546],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Plastron de Sbire\",\"color\":\"#82F6AD\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Un puissant plastron ayant\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"appartenu à un des sbires\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"du Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Enchantments:[{id:\"minecraft:protection\",lvl:6s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pantalon de Sbire\",\"color\":\"#82F6AD\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Un puissant pantalon ayant\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"appartenu à un des sbires\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"du Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Enchantments:[{id:\"minecraft:protection\",lvl:6s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Bottes de Sbire\",\"color\":\"#82F6AD\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"De puissantes bottes ayant\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"appartenu à un des sbires\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"du Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},HideFlags:128,Enchantments:[{id:\"minecraft:protection\",lvl:6s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lame de Sbire\",\"color\":\"#82F6AD\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"Une houe corrompue ayant\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"appartenu à un des sbires\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\"du Cravebi.\",\"color\":\"#FAFAFA\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Halloween 2023\",\"color\":\"#024050\",\"bold\":true,\"italic\":false}']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:sharpness\",lvl:15s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:efficiency\",lvl:7s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}

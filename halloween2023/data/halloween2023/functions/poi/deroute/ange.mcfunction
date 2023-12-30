@@ -1,0 +1,7 @@
+execute as @s unless entity @s[advancements={halloween2023:poi/deroute={ange=true}}] run playsound minecraft:entity.allay.ambient_without_item ambient @s ~ ~ ~ 5 1.2
+
+execute as @s unless entity @s[advancements={halloween2023:poi/deroute={ange=true}}] run tellraw @s [{"selector":"@s","bold":true,"color":"#61c3cb"},{"text":" : Allô Bob ? Tu me reçois ?","color":"#C5CDB5","bold":false},{"text":"\nBob le Bot","bold":true,"color":"#024050"},{"text":" : Cinq sur cinq !\n","color":"#C5CDB5","bold":false},{"selector":"@s","bold":true,"color":"#61c3cb"},{"text":" : Je viens de trouver une statue d'ange.","color":"#C5CDB5","bold":false},{"text":"\nBob le Bot","bold":true,"color":"#024050"},{"text":" : Je vois ça ! Cette statue est connue des joueurs qui se sont perdus dans ce labyrinthe. La légende raconte qu'elle veille sur les âmes des joueurs disparus. Bref, continue tes recherches et reviens me voir !","color":"#C5CDB5","bold":false}]
+
+execute as @s if entity @s[advancements={halloween2023:poi/deroute={ange=true}}] run tellraw @s [{"selector":"@s","bold":true,"color":"#61c3cb"},{"text":" : Je suis déjà passé à cet endroit là.","color":"#C5CDB5","bold":false}]
+
+advancement grant @s only halloween2023:poi/deroute ange

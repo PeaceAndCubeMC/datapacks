@@ -1,0 +1,8 @@
+execute unless score @s h23_monnaie matches 80.. run tellraw @s [{"text":"Solène Tiquité","bold":true,"color":"#024050"},{"text":" : Tu n'as pas assez de pièces temporelles !","color":"#C5CDB5","bold":false}]
+execute unless score @s h23_monnaie matches 80.. run advancement revoke @s only halloween2023:boutique/relique_2015
+execute unless score @s h23_monnaie matches 80.. run return -1
+
+execute if score @s h23_monnaie matches 80.. run give @s diamond_axe{display:{Name:'{"text":"Relique de Vil Clavicus","color":"#61C3CB","bold":true,"italic":false}',Lore:['{"text":" "}','{"text":"Une hache sanglante autrefois","color":"#FAFAFA","italic":false}','{"text":"possédée par un chef de guerre.","color":"#FAFAFA","italic":false}','{"text":" "}','[{"text":"Origine : ","color":"#C5CDB5","italic":false},{"text":"Age of Mobs","color":"#C5CDB5","bold":true,"italic":false}]','{"text":"Halloween 2023","color":"#024050","bold":true,"italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:7s},{id:"minecraft:smite",lvl:5s},{id:"minecraft:bane_of_arthropods",lvl:5s},{id:"minecraft:efficiency",lvl:1s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:mending",lvl:1s}]} 1
+execute if score @s h23_monnaie matches 80.. at @s run playsound minecraft:block.amethyst_block.resonate master @s ~ ~ ~
+execute if score @s h23_monnaie matches 80.. run tellraw @s [{"text":"Solène Tiquité","bold":true,"color":"#024050"},{"text":" : Merci d'avoir acheté la ","color":"#C5CDB5","bold":false},{"text":"Relique de Vil Clavicus","color":"#C5CDB5"},{"text":" contre 80 pièces temporelles !","color":"#C5CDB5","bold":false}]
+execute if score @s h23_monnaie matches 80.. run scoreboard players remove @s h23_monnaie 80

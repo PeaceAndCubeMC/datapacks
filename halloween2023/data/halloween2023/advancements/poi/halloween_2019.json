@@ -1,0 +1,17 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "ferme": {
+      "trigger": "minecraft:impossible"
+    },
+	"mairie": {
+      "trigger": "minecraft:impossible"
+    },
+	"manoir": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "halloween2023:root",
+  "criteria": {
+    "crane": {
+      "trigger": "minecraft:impossible"
+    },
+	"tour": {
+      "trigger": "minecraft:impossible"
+    },
+	"epreuve": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
