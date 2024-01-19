@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Cadeau N°5",
+    "description": "Le parking d'un bâtiment à peine inspiré d'une célèbre enseigne suédoise",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "noel2023:cadeaux/cadeau_4",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2023:cadeaux/cadeau_4": true
+                }
+              },
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -10003,
+                    "max": -9996
+                  },
+                  "y": {
+                    "min": 64,
+                    "max": 66
+                  },
+                  "z": {
+                    "min": 10027,
+                    "max": 10033
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2023:cadeaux/cadeau_5"
+  }
+}

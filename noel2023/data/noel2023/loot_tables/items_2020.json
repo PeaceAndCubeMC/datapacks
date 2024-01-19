@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_tulip",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2020\",\"color\":\"red\",\"bold\":false,\"italic\":false}'], Name: '[{\"text\":\"Emblème\",\"color\":\"red\",\"bold\":true,\"italic\":false},{\"text\":\" de\",\"color\":\"gold\"},{\"text\":\" PaC\",\"color\":\"green\",\"bold\":true,\"italic\":false}]'}, Enchantments: [{lvl: 1s, id: \"minecraft:infinity\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2020\",\"color\":\"red\",\"bold\":false,\"italic\":false}'], Name: '{\"text\":\"Champagne pétillant\",\"color\":\"#4D8A24\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+		  "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":false,\"italic\":false,\"color\":\"red\",\"text\":\"Noël 2020\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#4D8A24\",\"text\":\"Boule de Noël\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+		  "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":false,\"italic\":false,\"color\":\"red\",\"text\":\"Noël 2020\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#4D8A24\",\"text\":\"Emballage de cadeau\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_pigstep",
+		  "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":false,\"italic\":false,\"color\":\"red\",\"text\":\"Noël 2020\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#4D8A24\",\"text\":\"Mariah Carey - All I Want for Christmas Is You\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon",
+		  "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2020\",\"color\":\"red\",\"bold\":false,\"italic\":false}'], Name: '{\"text\":\"Lumière de fête\",\"color\":\"#4D8A24\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: {Id: [I; 177065157, -835894160, -1387225976, -1033188346], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZThmZDFhYTM5ZjE1MDc2ZTg4NGRmZTZkZGI5YTNmMzc2MWRiMzFlMmIxZjk5NDBiNWRmZDM0ZDFjNGQifX19\"}]}}, display: {Lore: ['{\"text\":\"Noël 2020\",\"color\":\"red\",\"bold\":false,\"italic\":false}'], Name: '{\"text\":\"Boule à neige\",\"color\":\"#4D8A24\",\"bold\":true,\"italic\":false}'}, AttributeModifiers: [{Amount: 4.0d, Slot: \"head\", AttributeName: \"minecraft:generic.max_health\", Operation: 0, UUID: [I; 118297179, -427866038, -1378753648, 596397859], Name: \"generic.max_health\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+		  "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2020\",\"color\":\"red\",\"bold\":false,\"italic\":false}'], Name: '{\"text\":\"Couvert pour les huîtres\",\"color\":\"blue\",\"bold\":true,\"italic\":false}'}, Enchantments: [{lvl: 5s, id: \"minecraft:impaling\"}, {lvl: 3s, id: \"minecraft:loyalty\"}, {lvl: 1s, id: \"minecraft:mending\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}], Damage: 0}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

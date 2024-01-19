@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Pain de Noël\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Boing boing de Noël\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Cadeau de papi\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+		  "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Livre de Noël\"}'},StoredEnchantments:[{lvl:1s,id:\"minecraft:silk_touch\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+		  "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Livre de Noël\"}'},StoredEnchantments:[{lvl:1,id:\"minecraft:mending\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:guardian_spawn_egg",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Poisson rouge\"}'},EntityTag:{id:\"minecraft:guardian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Lance Pierre\"}'},Enchantments:[{lvl:2s,id:\"minecraft:power\"},{lvl:2s,id:\"minecraft:punch\"}],Damage:0}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+		  "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{lvl:4s,id:\"minecraft:efficiency\"},{lvl:3s,id:\"minecraft:fortune\"},{lvl:1s,id:\"minecraft:mending\"},{lvl:1s,id:\"minecraft:silk_touch\"},{lvl:4s,id:\"minecraft:unbreaking\"}],display:{Lore:['{\"text\":\"Noël 2016\"}'],Name:'{\"text\":\"Pioche de Noël\"}'},Damage:0,AttributeModifiers:[{Amount:1.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.max_health\",Operation:0,UUID:[I;0,394267,0,788050],Name:\"generic.maxHealth\"}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

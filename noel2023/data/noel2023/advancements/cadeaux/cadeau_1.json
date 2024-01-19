@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Cadeau N°1",
+    "description": "L'entrée d'un des plus vieux et plus grands labyrinthes du serveur",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "noel2023:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2023:root": true
+                }
+              },
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -852,
+                    "max": -847
+                  },
+                  "y": {
+                    "min": 53,
+                    "max": 55
+                  },
+                  "z": {
+                    "min": 90,
+                    "max": 99
+                  }
+                },
+                "dimension": "minecraft:event"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2023:cadeaux/cadeau_1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+	  "nbt": "{SkullOwner:{Id:[I;-1927779552,-1368962092,-1520454676,1221284730],Properties:{textures:[{Signature:\"WfCL4XohB18WbikI0Unc+0IH4Wxbc44/w2utFT17gI9tW2B9fQHueg4W7rp8vsOUw7y1HZ0hdAWwXYA8ywX3KZuYWWkJTYio4/KIaOIWAMzlEzdRDRfYTyAxluIoqFCwchAAFis6sMP1OFVJDWR7IBlyGcls52n7tBiJ0vsOIOVNR4R1p7l4LKyBVsNk4DP80fPGGubHw5AQB34PG73ni4ygcxfEzRMrYlzkt0sXaDggIiMSaJiOUp8LNXpDLcdPm738FoyyoDcjx9/lRlYOnS8DHYArR+guMqaYhTCmfNjIRWnQeJdT8H+lKD8/EmRiDH0pCSdnr2jIakK7jbc4IFb4a2J6MRJCiGzBGLWadI5d3ChakGFZjvCZZjDs6VA+mDklNg0B+fiwoyNMV7oP8wJEArJ+l3mX5o+0DKvJzaamULOD4rgTnRsvNJP1ZqnCsCfQnNsf5ZkPRVVH+ZPfkZu93T8WiKFypfSrRZOIz/xI/LuE1O91rsXYxlbGm9uit4+4HMUhZwL+zYz9n6qL2pv4rtuxi4YY5gz2aoS+9pc17FrBLC4IYtckKhWhKuAQE3H0SNF7rryx1avsbtYSrNlGErpyZVzIiG49OeHQOKK1hgdzlmA5/Yf/c32//gpknjomJcDbUpulNakvRfmoHH8Gnz7tkanlNI88a0yzkSU=\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMjM4MDIyNTcwOSwKICAicHJvZmlsZUlkIiA6ICI4ZDE4NmIyMGFlNjc0YmQ0YTU1ZmIzZWM0OGNiNTM3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJZYW5pc0JmdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YzZjYzIxNTAxODZhYzQ4ZjhmZWM3NDE1OWQ2ODgxNWRjNDRhZDhiNDMzNzg5ZmNhNjcxOTUwOTVjMDZlNTZjIgogICAgfQogIH0KfQ==\"}]}}}"
+    },
+    "title": "Noël 2023",
+    "description": "Retrouve les cadeaux perdus par le Pac Noël, dans l'ordre !",
+    "background": "minecraft:textures/block/snow.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

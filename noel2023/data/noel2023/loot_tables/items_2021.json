@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spore_blossom",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['[{\"text\":\"No\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"ël \",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"text\":\"20\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"21\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]'], Name: '{\"text\":\"Noeud papillon\",\"color\":\"#005C01\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:large_amethyst_bud",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"italic\":false,\"color\":\"#1363BF\",\"text\":\"Pêche hivernale - Trésor\"}', '{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"extra\":[{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"ël \"},{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"text\":\"20\"},{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"21\"}],\"text\":\"No\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#C4FDFF\",\"text\":\"Cristal\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+		  "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{effects: [{duration: 200, id: \"minecraft:speed\"}, {duration: 600, id: \"minecraft:strength\"}, {duration: 1, id: \"minecraft:instant_health\"}, {duration: 60, id: \"minecraft:nausea\"}, {duration: 600, id: \"minecraft:fire_resistance\"}, {duration: 60, id: \"minecraft:blindness\"}, {duration: 40, id: \"minecraft:wither\"}], display: {Lore: ['{\"text\":\"Pêche hivernale - Bibelot\",\"color\":\"#1363BF\",\"italic\":false}', '[{\"text\":\"No\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"ël \",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"text\":\"20\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"21\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]'], Name: '{\"text\":\"Surströmming\",\"color\":\"#C4FDFF\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Pêche hivernale - Bibelot\",\"color\":\"#1363BF\",\"italic\":false}', '[{\"text\":\"No\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"ël \",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"text\":\"20\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"21\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]'], Name: '{\"text\":\"Feux d\\'Arcticfice\",\"color\":\"#C4FDFF\",\"bold\":true,\"italic\":false}'}, Fireworks: {Flight: 2b, Explosions: [{Type: 1b, Colors: [I; 4652833, 743179], FadeColors: [I; 16777215], Flicker: 1b}, {Type: 2b, Colors: [I; 16766208], FadeColors: [I; 12078649], Flicker: 1b}, {Type: 0b, Colors: [I; 16711680], Trail: 1b, FadeColors: [I; 7875422], Flicker: 1b}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_bucket",
+		  "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData: 2105, display: {Lore: ['{\"italic\":false,\"color\":\"#1363BF\",\"text\":\"Pêche hivernale - Poisson\"}', '{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"extra\":[{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"ël \"},{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"text\":\"20\"},{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"21\"}],\"text\":\"No\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#C4FDFF\",\"text\":\"Compagnon de l\\'hiver\"}'}, Tags: [\"ph_fish\", \"ph_fish_5\"]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: {Id: [I; -2053303960, 598951987, -1098173115, 1660459539], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQxMzU4NGRlMGEzMDNlNzczZDhmNmQ4ZTA2ZjViNjA2NDgyZDE4NGIwMWY1N2NlMzhmYmU2ZjhiNzg2MjhmNyJ9fX0=\"}]}}, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}], display: {Lore: ['[{\"text\":\"No\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"ël \",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"text\":\"20\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"21\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]'], Name: '{\"text\":\"PlayStation 5\",\"color\":\"#005C01\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: {Id: [I; -2053303960, 598951987, -1098173115, 1660459539], Properties: {textures: [{Value: \"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNlZGY4MGMzMzZjMjNhMzQ5ZjFhNWUwNDRjNTQ4NzE1NDBkZGJlODBjN2IyNDUxNGJmOWI3MmIxYmNhMDRmYiJ9fX0=\"}]}}, display: {Lore: ['[{\"text\":\"No\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"ël \",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"text\":\"20\",\"color\":\"#B70D00\",\"bold\":true,\"italic\":false},{\"text\":\"21\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]'], Name: '{\"text\":\"Xbox Series X\",\"color\":\"#005C01\",\"bold\":true,\"italic\":false}'}, Enchantments: [{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"italic\":false,\"color\":\"#1363BF\",\"text\":\"Pêche hivernale - Trésor\"}', '{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"extra\":[{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"ël \"},{\"bold\":true,\"italic\":false,\"color\":\"#B70D00\",\"text\":\"20\"},{\"bold\":true,\"italic\":false,\"color\":\"#FFFFFF\",\"text\":\"21\"}],\"text\":\"No\"}'], Name: '{\"bold\":true,\"italic\":false,\"color\":\"#C4FDFF\",\"text\":\"Cuirasse abîmée\"}'}, Enchantments: [{lvl: 2s, id: \"minecraft:fire_protection\"}, {lvl: 1s, id: \"minecraft:mending\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}], Damage: 0}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+		  "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":true,\"color\":\"gold\",\"text\":\"Noël 2019\"}'], Name: '{\"italic\":true,\"color\":\"red\",\"text\":\"Bonbons acidulés\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+		  "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":true,\"color\":\"gold\",\"text\":\"Noël 2019\"}'], Name: '{\"italic\":true,\"color\":\"red\",\"text\":\"Fais un voeu\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2019\",\"color\":\"red\",\"italic\":true}'], Name: '{\"text\":\"Saumon fumé\",\"color\":\"gold\",\"bold\":true}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+		  "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"italic\":true,\"color\":\"red\",\"text\":\"Noël 2019\"}'], Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Lumière hivernale\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+		  "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"italic\":true,\"color\":\"gold\",\"text\":\"Noël 2019\"}'], Name: '{\"bold\":true,\"color\":\"red\",\"text\":\"Bonnet du froid\"}'}, Enchantments: [{lvl: 4s, id: \"minecraft:fire_protection\"}, {lvl: 4s, id: \"minecraft:projectile_protection\"}, {lvl: 4s, id: \"minecraft:thorns\"}, {lvl: 1s, id: \"minecraft:unbreaking\"}], Damage: 0}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Charged: 0b, Enchantments: [{lvl: 1s, id: \"minecraft:mending\"}, {lvl: 1s, id: \"minecraft:multishot\"}, {lvl: 2s, id: \"minecraft:quick_charge\"}], display: {Lore: ['{\"italic\":true,\"color\":\"red\",\"text\":\"Noël 2019\"}'], Name: '{\"color\":\"gold\",\"text\":\"Nerf gun\"}'}, Damage: 0}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"bold\":true,\"color\":\"gold\",\"text\":\"Noël 2019\"}'], Name: '{\"italic\":true,\"color\":\"red\",\"text\":\"Revigorant\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Lore: ['{\"text\":\"Noël 2019\"}'], Name: '{\"text\":\"Hache de Aayan\"}'}, Enchantments: [{lvl: 5s, id: \"minecraft:efficiency\"}, {lvl: 1s, id: \"minecraft:mending\"}, {lvl: 4s, id: \"minecraft:sharpness\"}, {lvl: 13s, id: \"minecraft:unbreaking\"}], Damage: 0}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:clock"
+                    ],
+                    "nbt": "{Tags:[\"n23_montre\"]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

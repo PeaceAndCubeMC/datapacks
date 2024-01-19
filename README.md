@@ -57,3 +57,8 @@ Manages all quests, dialogues, resource gathering, milestones and custom crafts.
 `Advancements` • `Functions` • `Loot tables`
 
 Manages all mob and boss kill counts, dialogues, milestones and quests. The final boss drops are handled with a loot table.
+
+## [noel2023](./noel2023)
+`Advancements` • `Functions` • `Loot tables` • `Structures`
+
+Manages quest, gifts and archeology loot tables and structures.

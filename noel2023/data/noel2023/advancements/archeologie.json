@@ -1,0 +1,264 @@
+{
+  "parent": "noel2023:root",
+  "criteria": {
+	"items_2016": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2016"
+      }
+    },
+	"items_2017": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2017"
+      }
+    },
+	"items_2018": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2018"
+      }
+    },
+	"items_2019": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2019"
+      }
+    },
+	"items_2020": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2020"
+      }
+    },
+	"items_2021": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:clock"
+						],
+						"nbt": "{Tags:[\"n23_montre\"]}"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		],
+        "loot_table": "noel2023:items_2021"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "items_2016",
+      "items_2017",
+      "items_2018",
+      "items_2019",
+      "items_2020",
+      "items_2021"
+    ]
+  ],
+  "rewards": {
+    "function": "noel2023:archeologie"
+  }
+}

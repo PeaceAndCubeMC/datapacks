@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Cadeau N°3",
+    "description": "Un endroit où l'on avait l'habitude d'affronter des vagues de monstres tous ensemble",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "noel2023:cadeaux/cadeau_2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2023:cadeaux/cadeau_2": true
+                }
+              },
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 1620,
+                    "max": 1631
+                  },
+                  "y": {
+                    "min": 117,
+                    "max": 119
+                  },
+                  "z": {
+                    "min": 4278,
+                    "max": 4291
+                  }
+                },
+                "dimension": "minecraft:eventp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2023:cadeaux/cadeau_3"
+  }
+}
