@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+	"group": "crepes",
+  "key": {
+    "W": "minecraft:wheat",
+    "M": "minecraft:milk_bucket",
+    "E": "minecraft:egg",
+		"S": "minecraft:salmon"
+  },
+  "pattern": [
+		" S ",
+    "WME"
+  ],
+  "result": {
+    "id": "minecraft:cookie",
+    "count": 4,
+		"components": {
+			"custom_name": '{"bold":true,"color":"#ff9687","italic":false,"text":"Crêpe au saumon"}',
+			"lore": [
+				'" "',
+				'{"bold":false,"color":"#fbdeb2","italic":false,"text":"Des bonnes saveurs nordiques"}',
+				'" "',
+				'[{"bold":true,"color":"#d07830","italic":false,"text":"🥞 "},{"bold":false,"color":"#d07830","italic":false,"text":"Chandeleur 2025"}]'
+			],
+			"consumable": {consume_seconds:1.4,animation:"eat",has_consume_particles:true},
+			"food": {nutrition:6,saturation:7,can_always_eat:true},
+			"custom_model_data": {floats:[2502006]}
+		}
+  }
+}

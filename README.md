@@ -62,3 +62,8 @@ Manages all mob and boss kill counts, dialogues, milestones and quests. The fina
 `Advancements` • `Functions` • `Loot tables` • `Structures`
 
 Manages quest, gifts and archeology loot tables and structures.
+
+## [chandeleur2025](./chandeleur2025)
+`Functions` • `Recipes`
+
+Manages functions and recipes for crepes.

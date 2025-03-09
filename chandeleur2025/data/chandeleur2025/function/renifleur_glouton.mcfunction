@@ -1,0 +1,57 @@
+# Si pas parlé à Olga
+
+execute unless score @s chandeleur2025_olga matches 0.. run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" *Sniff Sniff*","italic":true,"color":"white"},{"text":" Oh, euh... ça sent bon par ici !","color":"white"},{"text":"\n "}]
+execute unless score @s chandeleur2025_olga matches 0.. run return -1
+
+# Poêle à crêpes déjà give
+
+execute if score @s chandeleur2025 matches 6 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Quelle saveur fabuleuse ! Empresse-toi de la faire découvrir au monde entier !","color":"white"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 6 run return 0
+
+# Proposer crêpe zombie
+
+execute if score @s chandeleur2025 matches 5 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502008.0f]}}}]}] run scoreboard players set @s chandeleur2025 6
+execute if score @s chandeleur2025 matches 6 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502008]}] 1
+execute if score @s chandeleur2025 matches 6 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" C\u2019est ça ! Ouiii ! C\u2019est le goût parfait ! Une explosion de saveurs ! C\u2019est... c'est le mariage entre la douceur de la pâte et un profond arrière-goût sauvage et terrifiant ! C\u2019est comme si chaque bouchée murmurait des secrets anciens. Ce goût... il est vivant ! Il est puissant ! "},{"text":"[...]","bold":true,"color":"yellow","hoverEvent":{"action":"show_text","contents":"Par souci de manque de place dans le chat du jeu, l'intégralité du monologue du Renifleur Glouton n'est pas affiché, et a été réduit au strict minimum."}},{"text":" Ah, c'est vraiment délicieux !\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Eh bien, je suis content que ça te plaise ! Il fallait vraiment trouver quelque chose d'unique pour satisfaire ton palais\u2026\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Tiens, euh... Prends ce cadeau en guise de remerciement. Tu pourras partager cette recette avec le monde entier !\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Merci beaucoup, Renifleur Glouton. Même si je pense garder cette recette pour moi. "},{"text":"*Il vaut mieux n'intoxiquer personne avec cette recette*","italic":true},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 6 run give @s mace[rarity="epic",enchantments={levels:{"minecraft:breach":3,"minecraft:knockback":1,"minecraft:looting":3,"minecraft:mending":1,"minecraft:unbreaking":3}},custom_name='{"bold":true,"color":"#B8A372","italic":false,"text":"Poêle à crêpe"}',lore=['" "','{"color":"#FBDEB2","italic":false,"text":"De quoi faire de bonnes crêpes !"}','" "','{"color":"#D07830","italic":false,"text":"🥞 Chandeleur 2025"}'],attribute_modifiers=[{id:"armor",type:"armor",amount:2,operation:"add_value",slot:"offhand"},{id:"knockback_resistance",type:"knockback_resistance",amount:0.1,operation:"add_value",slot:"offhand"},{id:"attack_damage",type:"attack_damage",amount:6,operation:"add_value",slot:"mainhand"},{id:"attack_speed",type:"attack_speed",amount:-3.4,operation:"add_value",slot:"mainhand"},{id:"armor",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"knockback_resistance",type:"knockback_resistance",amount:0.1,operation:"add_value",slot:"head"}],equippable={slot:"head",equip_sound:"item.mace.smash_air"},custom_model_data={floats:[2502010]},enchantment_glint_override=false] 1
+execute if score @s chandeleur2025 matches 6 run return 0
+
+# Proposer crêpe saumon
+
+execute if score @s chandeleur2025 matches 4 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502006.0f]}}}]}] run scoreboard players set @s chandeleur2025 5
+execute if score @s chandeleur2025 matches 5 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502006]}] 1
+execute if score @s chandeleur2025 matches 5 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Mhh, quelle saveur ! Euh... J'aime beaucoup, mais, j'ai le sentiment qu'un goût plus puissant existe.","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Plus puissant que du poisson ? Un goût très... particulier, tu veux dire ?\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Oui, c'est ça... Un goût "},{"text":"terrifiant","color":"red"},{"text":", même. Quelque chose de plus... "},{"text":"macabre ","color":"red"},{"text":"! La saveur d'une "},{"text":"viande ","color":"red"},{"text":"qui semble "},{"text":"mourir ","color":"red"},{"text":"et renaître dans la même bouchée... \n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Le livre de recette ne m'aidera pas cette fois-ci. Je vais devoir inventer ma propre crêpe.\n\n"},{"text":">> Invente une crêpe et apporte là au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 5 run return 0
+
+# Proposer crêpe oeuf
+
+execute if score @s chandeleur2025 matches 3 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502007.0f]}}}]}] run scoreboard players set @s chandeleur2025 4
+execute if score @s chandeleur2025 matches 4 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502007]}] 1
+execute if score @s chandeleur2025 matches 4 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Oui ! Cette saveur est beaucoup plus agréable que les précédentes. Mais, euh... Peut-être aurais-tu un goût plus prononcé à me faire découvrir ?","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Un goût plus prononcé ? Hmm... Je peux te proposer une crêpe au saumon !\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Le saumon, le poisson... Euh... Oui, essayons !\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Je te prépare ça.\n\n"},{"text":">> Rapporter une crêpe au saumon au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 4 run return 0
+
+# Proposer crêpe confiture
+
+execute if score @s chandeleur2025 matches 2 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502002.0f]}}}]}] run scoreboard players set @s chandeleur2025 3
+execute if score @s chandeleur2025 matches 3 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502002]}] 1
+execute if score @s chandeleur2025 matches 3 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Euh, je crois que... Ne le prends pas mal.. Mais, je crois que le sucré n'est pas fait pour moi.","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Pas de problème, que dirais-tu d'une crêpe à l'oeuf ?\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Je, euh... Je veux bien essayer, oui !\n\n"},{"text":">> Rapporter une crêpe à l'oeuf au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 3 run return 0
+
+# Proposer crêpe sucre
+
+execute if score @s chandeleur2025 matches 1 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502004.0f]}}}]}] run scoreboard players set @s chandeleur2025 2
+execute if score @s chandeleur2025 matches 2 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502004]}] 1
+execute if score @s chandeleur2025 matches 2 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" J'aime bien, euh, c'est bon. Mais un peu trop croquant.","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Si j'y ajoute quelque chose de plus doux, ça te conviendrait ?","color":"white"},{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Oui, euh, oui ! Plus doux s'il te plait.\n\n"},{"text":">> Rapporter une crêpe à la confiture au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 2 run return 0
+
+# Proposer crêpe nature
+
+execute if score @s chandeleur2025 matches 0 if entity @s[nbt={Inventory:[{id:"minecraft:cookie",components:{"minecraft:custom_model_data":{floats:[2502001.0f]}}}]}] run scoreboard players set @s chandeleur2025 1
+execute if score @s chandeleur2025 matches 1 run clear @s minecraft:cookie[minecraft:custom_model_data={floats:[2502001]}] 1
+execute if score @s chandeleur2025 matches 1 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Miammeuh... C'est bien délicieux cette pâte cuite circulaire, euuh... Je veux dire, cette crêpe ! Mais, euh... Elle manque de quelque chose.","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Tu veux que je garnisse ta crêpe ?","color":"white"},{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Euh, oui ! J'aimerais bien, oui ! Peut-être cette poudre blanche ?\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Ok, je vais voir ce que je peux faire.\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" *Il doit surement parler du sucre.*","italic":true},{"text":"\n\n"},{"text":">> Rapporter une crêpe au sucre au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
+execute if score @s chandeleur2025 matches 1 run return 0
+
+# Premier dialogue
+
+execute unless score @s chandeleur2025 matches 0.. run scoreboard players set @s chandeleur2025 0
+execute if score @s chandeleur2025 matches 0 run tellraw @s ["",{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Euh... Boujour... Euuuuh, ça sent bon par ici dit donc. J'ai fait trois jours de marche pour rejoindre cet endroit.","color":"white"},{"text":"\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" *Trois jours ? Ce renifleur n'habite pas juste à côté du village pirate ?*","italic":true,"color":"white"},{"text":"\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Tu serais aimable de, euuuh, de me faire gouter cette pâte cuite circulaire que vous mangez ?\n"},{"selector":"@s","color":"dark_aqua"},{"text":" :","color":"dark_aqua"},{"text":" Tu veux que je te rapporte une crêpe ?\n"},{"text":"Renifleur Glouton :","color":"#399639"},{"text":" Euh, oui ! C'est cela, une crêpe, oui !\n\n"},{"text":">> Rapporter une crêpe nature au ","bold":true,"color":"yellow"},{"text":"Renifleur Glouton","bold":true,"color":"#399639"},{"text":"\n "}]
