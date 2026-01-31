@@ -1,0 +1,23 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "dyed_color": 11083051,
+      "trim": {
+        "material": "resin",
+        "pattern": "snout"
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "minecraft:dyed_color": false,
+      "minecraft:trim": false
+    }
+  },
+  {
+    "function": "reference",
+    "name": "noel2025:lore_footer"
+  }
+]

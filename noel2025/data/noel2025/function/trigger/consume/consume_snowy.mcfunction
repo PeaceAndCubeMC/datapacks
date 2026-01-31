@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"consume",biome:"snowy",spawn_rate:5,sound:"entity.stray.hurt"}

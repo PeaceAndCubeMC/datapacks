@@ -67,3 +67,8 @@ Manages quest, gifts and archeology loot tables and structures.
 `Functions` • `Recipes`
 
 Manages functions and recipes for crepes.
+
+## [noel2025](./noel2025)
+`Advancements` • `Functions` • `Item modifiers` • `Predicates` • `Tags`
+
+Manages the spawning system, the progress and the shop.

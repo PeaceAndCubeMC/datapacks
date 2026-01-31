@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"breed",biome:"exotic",spawn_rate:35,sound:"entity.witch.hurt"}

@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"kill",biome:"nether",spawn_rate:15,sound:"entity.piglin.hurt"}

@@ -1,0 +1,146 @@
+{
+  "parent": "noel2025:progress/kill_400_mobs",
+  "display": {
+    "title": "Protecteur océanique I",
+    "description": "Tue 5 gobelins venant d'un océan",
+    "icon": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "dyed_color": 1481884,
+        "trim": {
+          "material": "copper",
+          "pattern": "coast"
+        }
+      }
+    },
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "ocean_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/ocean/kill_ocean_5": {
+                    "ocean_4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_ocean\"]}"
+        }
+      }
+    },
+    "ocean_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/ocean/kill_ocean_5": {
+                    "ocean_3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_ocean\"]}"
+        }
+      }
+    },
+    "ocean_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/ocean/kill_ocean_5": {
+                    "ocean_2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_ocean\"]}"
+        }
+      }
+    },
+    "ocean_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/ocean/kill_ocean_5": {
+                    "ocean_1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_ocean\"]}"
+        }
+      }
+    },
+    "ocean_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_ocean\"]}"
+        }
+      }
+    }
+  }
+}

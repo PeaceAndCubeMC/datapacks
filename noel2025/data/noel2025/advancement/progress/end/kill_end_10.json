@@ -1,0 +1,286 @@
+{
+  "parent": "noel2025:progress/end/kill_end_5",
+  "display": {
+    "title": "Protecteur du néant II",
+    "description": "Tue 10 gobelins venant de l'End",
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "dyed_color": 1318178,
+        "trim": {
+          "material": "amethyst",
+          "pattern": "spire"
+        }
+      }
+    },
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "end_10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/end/kill_end_10": {
+                    "end_1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    },
+    "end_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_end\"]}"
+        }
+      }
+    }
+  }
+}

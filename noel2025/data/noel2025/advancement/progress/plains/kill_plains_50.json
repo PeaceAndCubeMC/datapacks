@@ -1,0 +1,1410 @@
+{
+  "parent": "noel2025:progress/plains/kill_plains_25",
+  "display": {
+    "title": "Protecteur ensoleillé IV",
+    "description": "Tue 50 gobelins venant d'une plaine",
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "dyed_color": 6192150,
+        "trim": {
+          "material": "gold",
+          "pattern": "sentry"
+        }
+      }
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "plains_50": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_49": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_49": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_48": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_48": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_47": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_47": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_46": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_46": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_45": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_45": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_44": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_44": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_43": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_43": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_42": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_42": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_41": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_41": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_40": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_40": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_39": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_39": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_38": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_38": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_37": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_37": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_36": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_36": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_35": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_35": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_34": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_34": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_33": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_33": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_32": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_32": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_31": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_31": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_30": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_30": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_29": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_29": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_28": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_28": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_27": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_27": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_26": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_26": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_25": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_25": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_24": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_24": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_23": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_23": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_22": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_22": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_21": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_21": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_20": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_19": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_18": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_17": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_16": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_15": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_14": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_13": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_12": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_11": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_10": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_9": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_8": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_7": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_6": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_5": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/plains/kill_plains_50": {
+                    "plains_1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    },
+    "plains_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_plains\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:progress/kill_50_plains"
+  }
+}

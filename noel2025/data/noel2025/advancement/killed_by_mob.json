@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "buy": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:killed_by_mob"
+  }
+}

@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"breed",biome:"ocean",spawn_rate:45,sound:"entity.drowned.hurt"}

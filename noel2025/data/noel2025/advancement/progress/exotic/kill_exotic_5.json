@@ -1,0 +1,146 @@
+{
+  "parent": "noel2025:progress/kill_400_mobs",
+  "display": {
+    "title": "Protecteur tropical I",
+    "description": "Tue 5 gobelins venant d'un biome exotique",
+    "icon": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "dyed_color": 6188334,
+        "trim": {
+          "material": "iron",
+          "pattern": "wild"
+        }
+      }
+    },
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "exotic_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/exotic/kill_exotic_5": {
+                    "exotic_4": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_exotic\"]}"
+        }
+      }
+    },
+    "exotic_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/exotic/kill_exotic_5": {
+                    "exotic_3": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_exotic\"]}"
+        }
+      }
+    },
+    "exotic_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/exotic/kill_exotic_5": {
+                    "exotic_2": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_exotic\"]}"
+        }
+      }
+    },
+    "exotic_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "noel2025:progress/exotic/kill_exotic_5": {
+                    "exotic_1": true
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_exotic\"]}"
+        }
+      }
+    },
+    "exotic_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          }
+        ],
+        "entity": {
+          "nbt": "{Tags:[\"noel2025\",\"noel2025_exotic\"]}"
+        }
+      }
+    }
+  }
+}

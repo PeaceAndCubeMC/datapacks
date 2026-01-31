@@ -1,0 +1,5 @@
+tellraw @s ["\n",[{"text":"Bob le Bot","color":"#E3B340","bold":false,"italic":false}],{"text":" >> ","color":"gray","bold":false},{"text":"Salut ","color":"#F5EACE","bold":false},{"selector":"@s","color":"#F5EACE","bold":false},{"text":". Le serveur a besoin de toi !\n Des gobelins ont envahi le monde entier, mais ne se montrent qu'à certaines occasions.\n Débarrasse-toi d'eux pour sauver Noël, et obtenir de belles récompenses !","color":"#F5EACE","bold":false}]
+
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+
+tellraw @s ["\n",[{"text":"Noël","color":"#C13C3F","bold":true,"italic":false},{"text":" 2025","color":"white"}],{"text":" >> ","color":"gray","bold":false},{"text":"Plus d'informations sur l'event au panneau d'affichage.","color":"#F5EACE","bold":false}]

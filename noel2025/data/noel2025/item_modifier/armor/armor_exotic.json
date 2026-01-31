@@ -1,0 +1,23 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "dyed_color": 6188334,
+      "trim": {
+        "material": "iron",
+        "pattern": "wild"
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "minecraft:dyed_color": false,
+      "minecraft:trim": false
+    }
+  },
+  {
+    "function": "reference",
+    "name": "noel2025:lore_footer"
+  }
+]

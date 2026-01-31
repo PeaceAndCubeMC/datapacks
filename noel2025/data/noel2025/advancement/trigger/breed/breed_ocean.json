@@ -1,0 +1,45 @@
+{
+  "parent": "noel2025:trigger/root",
+  "criteria": {
+    "summon": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#noel2025:is_ocean",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#noel2025:breedable"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"noel2025\"]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:trigger/breed/breed_ocean"
+  }
+}

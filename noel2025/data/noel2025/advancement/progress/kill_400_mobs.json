@@ -1,0 +1,41 @@
+{
+  "parent": "noel2025:progress/kill_all_mobs",
+  "display": {
+    "title": "Libérateur de Noël",
+    "description": "Tue 50 gobelins de chaque biome et obtiens une récompense unique",
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "dry": {
+      "trigger": "minecraft:impossible"
+    },
+    "exotic": {
+      "trigger": "minecraft:impossible"
+    },
+    "forest": {
+      "trigger": "minecraft:impossible"
+    },
+    "ocean": {
+      "trigger": "minecraft:impossible"
+    },
+    "plains": {
+      "trigger": "minecraft:impossible"
+    },
+    "snowy": {
+      "trigger": "minecraft:impossible"
+    },
+    "nether": {
+      "trigger": "minecraft:impossible"
+    },
+    "end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "noel2025:progress/kill_400_mobs"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "noel2025:trigger/root",
+  "criteria": {
+    "summon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#noel2025:is_ocean",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#noel2025:killable"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"noel2025\"]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:trigger/kill/kill_ocean"
+  }
+}

@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"breed",biome:"end",spawn_rate:65,sound:"entity.enderman.hurt"}

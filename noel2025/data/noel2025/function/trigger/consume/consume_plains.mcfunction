@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"consume",biome:"plains",spawn_rate:5,sound:"entity.pillager.hurt"}

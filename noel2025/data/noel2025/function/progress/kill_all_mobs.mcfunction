@@ -1,0 +1,5 @@
+advancement grant @s only peaceandcube:events/noel_2025
+
+tellraw @s [[{"text":"Noël","color":"#C13C3F","bold":true,"italic":false},{"text":" 2025","color":"white"}],{"text":" >> ","color":"gray","bold":false},{"text":"Félicitations, tu as tué chaque gobelin au moins une fois ! Voici ta récompense.","color":"#F5EACE","bold":false}]
+
+give @s nether_star[custom_name={bold:true,color:"#E3B340",italic:false,text:"Étoile du sapin"},lore=[{"text":""},{"text":"Un objet qui protège lorsqu'il","color":"#8FADF1","italic":false},{"text":"est porté sur la tête.","color":"#8FADF1","italic":false},{"text":""},{"text":"⏩ Opération Gobelins ⏪","color":"#F5EACE","italic":false},[{"text":"Noël","color":"#C13C3F","bold":true,"italic":false},{"text":" 2025","color":"white"}]],enchantments={infinity:1},attribute_modifiers=[{id:"85054b82-fb19-4079-adad-0862e8462c20",type:"armor",amount:3,operation:"add_value",slot:"head"},{id:"5d9c18ad-0b76-4c47-98d4-03a02a05043c",type:"armor_toughness",amount:3,operation:"add_value",slot:"head"}],max_stack_size=1] 1

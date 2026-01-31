@@ -1,0 +1,1 @@
+function noel2025:trigger/trigger {action:"breed",biome:"dry",spawn_rate:35,sound:"entity.husk.hurt"}

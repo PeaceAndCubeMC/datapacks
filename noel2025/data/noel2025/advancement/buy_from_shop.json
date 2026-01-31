@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "buy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"noel2025_marchand\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:buy_from_shop"
+  }
+}

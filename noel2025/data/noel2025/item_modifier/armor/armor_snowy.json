@@ -1,0 +1,23 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "dyed_color": 16382201,
+      "trim": {
+        "material": "lapis",
+        "pattern": "ward"
+      }
+    }
+  },
+  {
+    "function": "toggle_tooltips",
+    "toggles": {
+      "minecraft:dyed_color": false,
+      "minecraft:trim": false
+    }
+  },
+  {
+    "function": "reference",
+    "name": "noel2025:lore_footer"
+  }
+]

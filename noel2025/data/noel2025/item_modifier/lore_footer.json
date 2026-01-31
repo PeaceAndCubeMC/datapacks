@@ -1,0 +1,23 @@
+{
+  "function": "set_lore",
+  "mode": "append",
+  "lore": [
+    {
+      "text": "⏩ Opération Gobelins ⏪",
+      "color": "#F5EACE",
+      "italic": false
+    },
+    [
+      {
+        "text": "Noël",
+        "color": "#C13C3F",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": " 2025",
+        "color": "white"
+      }
+    ]
+  ]
+}

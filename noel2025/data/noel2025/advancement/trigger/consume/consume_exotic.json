@@ -1,0 +1,28 @@
+{
+  "parent": "noel2025:trigger/root",
+  "criteria": {
+    "summon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "noel2025:check_event_active"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#noel2025:is_exotic",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "item": {
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "noel2025:trigger/consume/consume_exotic"
+  }
+}

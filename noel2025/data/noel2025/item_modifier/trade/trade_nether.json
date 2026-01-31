@@ -1,0 +1,73 @@
+[
+  {
+    "function": "set_item",
+    "item": "minecraft:firework_star"
+  },
+  {
+    "function": "set_count",
+    "count": 1
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "minecraft:crimson_fungus"
+    }
+  },
+  {
+    "function": "set_name",
+    "target": "custom_name",
+    "name": {
+      "text": "Champignon carmin",
+      "color": "#A91D2B",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Utilisé comme monnaie d'échange.",
+        "color": "#8FADF1",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Origine : ",
+          "color": "#F5EACE",
+          "italic": false
+        },
+        {
+          "text": "Nether",
+          "color": "#E3B340",
+          "bold": true
+        }
+      ]
+    ]
+  },
+  {
+    "function": "reference",
+    "name": "noel2025:lore_footer"
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "unbreaking": 10
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "noel2025": {
+        "biome": "nether"
+      }
+    }
+  }
+]

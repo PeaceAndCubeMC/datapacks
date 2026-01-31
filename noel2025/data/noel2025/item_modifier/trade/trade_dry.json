@@ -1,0 +1,73 @@
+[
+  {
+    "function": "set_item",
+    "item": "minecraft:firework_star"
+  },
+  {
+    "function": "set_count",
+    "count": 1
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "minecraft:cactus_flower"
+    }
+  },
+  {
+    "function": "set_name",
+    "target": "custom_name",
+    "name": {
+      "text": "Fleur de cactus",
+      "color": "#F6D7B0",
+      "bold": true,
+      "italic": false
+    }
+  },
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Utilisée comme monnaie d'échange.",
+        "color": "#8FADF1",
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      [
+        {
+          "text": "Origine : ",
+          "color": "#F5EACE",
+          "italic": false
+        },
+        {
+          "text": "Biome sec",
+          "color": "#E3B340",
+          "bold": true
+        }
+      ]
+    ]
+  },
+  {
+    "function": "reference",
+    "name": "noel2025:lore_footer"
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "unbreaking": 10
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "noel2025": {
+        "biome": "dry"
+      }
+    }
+  }
+]
